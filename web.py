@@ -7,7 +7,7 @@ import time
 #creating the connection
 st.session_state.pepper = Connection()
 ip='127.0.0.1'
-port=44029
+port=43521
 
 # ip='10.0.0.244'
 # port=9559
@@ -29,24 +29,27 @@ def animation(button_name='listening',text=''):
 # Function to simulate Pepper's actions
 def perform_pepper_action(action):
     if action == "dance":
-        st.success("Pepper says: 'Time to show off my moves! Let's dance together!'")
+        st.success("Pepper is dancing")
     elif action == "tell_joke":
-        st.success("Pepper says: 'I’ve got a joke for you! Why don’t robots ever get lost? Because they always follow their GPS!'")
-    elif action == "selfie_pose":
-        st.success("Pepper says: 'Say cheese! I’ll hold this pose so you can snap the perfect selfie!'")
+        st.success("Pepper is making a joke'")
+    elif action == "animal":
+        st.success("Pepper is acting as an animal'")
     elif action == "sing_song":
-        st.success("Pepper says: 'Let me serenade you! I hope you like my voice. Here we go!'")
-    elif action == "high_five":
-        st.success("Pepper says: 'High-five! I’m ready, are you? Let’s do this!'")
+        st.success("Pepper is singing")
+    elif action == "selfie":
+        st.success("Smile!!!")
     elif action == "play_game":
-        st.success("Pepper says: 'Let’s play a quick game of Rock-Paper-Scissors! I bet I can guess your move!'")
-    elif action == "greet":
-        st.success("Pepper says: 'Hello there! It’s great to see you! How can I make your day more fun?'")
-    elif action == "tell_story":
-        st.success("Pepper says: 'Gather around! I’ve got a fun story to tell. Are you ready for an adventure?'")
+        st.success("Pepper is playing")
+    # # elif action == "greet":
+    # #     st.success("Pepper says: 'Hello there! It’s great to see you! How can I make your day more fun?'")
+    # elif action == "tell_story":
+    #     st.success("Pepper says: 'Gather around! I’ve got a fun story to tell. Are you ready for an adventure?'")
+    animation(action)
+
 
 # UI layout
-st.title("Play with Pepper")
+st.markdown("<h1 style='text-align: center;'>Play with Pepper</h1>", unsafe_allow_html=True)
+# st.title("Play with Pepper")
 
 st.header("Interactive Actions with Pepper")
 st.text("Click any button below to see Pepper in action:")
@@ -67,12 +70,12 @@ col1, col2 = st.columns(2)
 with col1:
     if st.button("Dance"):
         perform_pepper_action("dance")
+    if st.button("Animal Poses"):
+        perform_pepper_action("animal")
     if st.button("Selfie Pose"):
-        perform_pepper_action("selfie_pose")
-    if st.button("High-Five"):
-        perform_pepper_action("high_five")
-    if st.button("Greetings"):
-        perform_pepper_action("greet")
+        perform_pepper_action("selfie")
+    # if st.button("Greetings"):
+    #     perform_pepper_action("greet")
 
 with col2:
     if st.button("Tell a Joke"):
@@ -81,8 +84,8 @@ with col2:
         perform_pepper_action("sing_song")
     if st.button("Play a Game"):
         perform_pepper_action("play_game")
-    if st.button("Tell a Story"):
-        perform_pepper_action("tell_story")
+    # if st.button("Tell a Story"):
+    #     perform_pepper_action("tell_story")
 
 # User text box to ask Pepper questions, with Ask button in the same row
 st.header("Ask Pepper a Question")

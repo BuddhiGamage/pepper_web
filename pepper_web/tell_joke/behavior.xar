@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="UTF-8" ?><ChoregrapheProject xmlns="http://www.aldebaran-robotics.com/schema/choregraphe/project.xsd" xar_version="3"><Box name="root" id="-1" localization="8" tooltip="Root box of Choregraphe&apos;s behavior. Highest level possible." x="0" y="0"><bitmap>media/images/box/root.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /><Timeline enable="0"><BehaviorLayer name="behavior_layer1"><BehaviorKeyframe name="keyframe1" index="1"><Diagram scale="35.3553"><Box name="Text Edit" id="1" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="343" y="52"><bitmap>media/images/box/interaction/vocabulary.png</bitmap><script language="4"><content><![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped("Why did the robot go on vacation?")]]></content></script><pluginContent><text><![CDATA[Why did the robot go on vacation?]]></text></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" /><Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" /></Box><Box name="Text Edit (1)" id="2" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="347" y="199"><bitmap>media/images/box/interaction/vocabulary.png</bitmap><script language="4"><content><![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped("What’s a robot’s favorite type of music?")]]></content></script><pluginContent><text><![CDATA[What’s a robot’s favorite type of music?]]></text></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" /><Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" /></Box><Box name="Text Edit (2)" id="3" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="350" y="350"><bitmap>media/images/box/interaction/vocabulary.png</bitmap><script language="4"><content><![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped("Why did the robot break up with the computer?")]]></content></script><pluginContent><text><![CDATA[Why did the robot break up with the computer?]]></text></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" /><Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" /></Box><Box name="Text Edit (3)" id="4" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="360" y="476"><bitmap>media/images/box/interaction/vocabulary.png</bitmap><script language="4"><content><![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped("How does a robot fix a broken pizza?")]]></content></script><pluginContent><text><![CDATA[How does a robot fix a broken pizza?]]></text></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" /><Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" /></Box><Box name="Text Edit (4)" id="5" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="357" y="587"><bitmap>media/images/box/interaction/vocabulary.png</bitmap><script language="4"><content><![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped("Why did the robot go to school?")]]></content></script><pluginContent><text><![CDATA[Why did the robot go to school?]]></text></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" /><Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" /></Box><Box name="Text Edit (5)" id="6" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="360" y="715"><bitmap>media/images/box/interaction/vocabulary.png</bitmap><script language="4"><content><![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped("What do you call a robot who loves to sing?")]]></content></script><pluginContent><text><![CDATA[What do you call a robot who loves to sing?]]></text></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" /><Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" /></Box><Box name="Text Edit (6)" id="7" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="357" y="843"><bitmap>media/images/box/interaction/vocabulary.png</bitmap><script language="4"><content><![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped("Why was the robot so good at soccer?")]]></content></script><pluginContent><text><![CDATA[Why was the robot so good at soccer?]]></text></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" /><Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" /></Box><Box name="Text Edit (7)" id="8" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="353" y="975"><bitmap>media/images/box/interaction/vocabulary.png</bitmap><script language="4"><content><![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped("How do robots pay for things?")]]></content></script><pluginContent><text><![CDATA[How do robots pay for things?]]></text></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" /><Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" /></Box><Box name="Text Edit (8)" id="9" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="358" y="1111"><bitmap>media/images/box/interaction/vocabulary.png</bitmap><script language="4"><content><![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped("Why did the robot get lost?")]]></content></script><pluginContent><text><![CDATA[Why did the robot get lost?]]></text></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" /><Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" /></Box><Box name="Text Edit (9)" id="10" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="357" y="1234"><bitmap>media/images/box/interaction/vocabulary.png</bitmap><script language="4"><content><![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped("What did the robot say after a breakup?")]]></content></script><pluginContent><text><![CDATA[What did the robot say after a breakup?]]></text></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" /><Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" /></Box><Box name="Text Edit (10)" id="11" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="946" y="28"><bitmap>media/images/box/interaction/vocabulary.png</bitmap><script language="4"><content><![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped("Because it needed to recharge its batteries!")]]></content></script><pluginContent><text><![CDATA[Because it needed to recharge its batteries!]]></text></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" /><Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" /></Box><Box name="Text Edit (11)" id="12" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="953" y="187"><bitmap>media/images/box/interaction/vocabulary.png</bitmap><script language="4"><content><![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped("Heavy metal!")]]></content></script><pluginContent><text><![CDATA[Heavy metal!]]></text></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" /><Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" /></Box><Box name="Text Edit (12)" id="13" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="956" y="338"><bitmap>media/images/box/interaction/vocabulary.png</bitmap><script language="4"><content><![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped("Because it found the computer’s jokes too binary!")]]></content></script><pluginContent><text><![CDATA[Because it found the computer’s jokes too binary!]]></text></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" /><Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" /></Box><Box name="Text Edit (13)" id="14" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="966" y="464"><bitmap>media/images/box/interaction/vocabulary.png</bitmap><script language="4"><content><![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped("With a byte of code!")]]></content></script><pluginContent><text><![CDATA[With a byte of code!]]></text></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" /><Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" /></Box><Box name="Text Edit (14)" id="15" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="963" y="575"><bitmap>media/images/box/interaction/vocabulary.png</bitmap><script language="4"><content><![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped("To improve its circuits!")]]></content></script><pluginContent><text><![CDATA[To improve its circuits!]]></text></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" /><Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" /></Box><Box name="Text Edit (15)" id="16" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="966" y="703"><bitmap>media/images/box/interaction/vocabulary.png</bitmap><script language="4"><content><![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped("A rock-and-robot!")]]></content></script><pluginContent><text><![CDATA[A rock-and-robot!]]></text></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" /><Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" /></Box><Box name="Text Edit (16)" id="17" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="963" y="831"><bitmap>media/images/box/interaction/vocabulary.png</bitmap><script language="4"><content><![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped("Because it had a great kick-start!")]]></content></script><pluginContent><text><![CDATA[Because it had a great kick-start!]]></text></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" /><Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" /></Box><Box name="Text Edit (17)" id="18" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="959" y="963"><bitmap>media/images/box/interaction/vocabulary.png</bitmap><script language="4"><content><![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped("With their cache of credits!")]]></content></script><pluginContent><text><![CDATA[With their cache of credits!]]></text></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" /><Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" /></Box><Box name="Text Edit (18)" id="19" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="964" y="1099"><bitmap>media/images/box/interaction/vocabulary.png</bitmap><script language="4"><content><![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped("Because it couldn’t find its way through the cloud!")]]></content></script><pluginContent><text><![CDATA[Because it couldn’t find its way through the cloud!]]></text></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" /><Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" /></Box><Box name="Text Edit (19)" id="20" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="963" y="1222"><bitmap>media/images/box/interaction/vocabulary.png</bitmap><script language="4"><content><![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped("I guess I’m just not your type!")]]></content></script><pluginContent><text><![CDATA[I guess I’m just not your type!]]></text></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" /><Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" /></Box><Box name="Random Int." id="21" localization="8" tooltip="Generate a random integer between a min number and a max number set as&#x0A;parameters.&#x0A;Note that the min and max numbers are included in the range of possible values." x="184" y="21"><bitmap>media/images/box/box-script.png</bitmap><script language="4"><content><![CDATA[import random
+
+class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        # attributes needed in shuffle mode
+        self.nMax = 1
+        self.nMin = 0
+        self.nIndex = self.nMax - self.nMin
+        self.aShuffled = []
+
+    def onUnload(self):
+         #puts code for box cleanup here
+        pass
+
+    def onInput_onStart(self):
+        nMax = self.getParameter("Max value")
+        nMin = self.getParameter("Min value")
+        if( nMin > nMax ):
+            temp = nMin
+            nMin = nMax
+            nMax = temp
+        # if shuffle
+        if( self.getParameter("Shuffle") ):
+            self.nIndex += 1
+            if( self.nIndex > self.nMax - self.nMin or nMax != self.nMax or nMin != self.nMin ):
+                self.nMax = nMax
+                self.nMin = nMin
+                self.nIndex = 0
+                self.aShuffled = []
+                for i in range( nMin, nMax + 1 ):
+                    self.aShuffled.insert( random.randint(0, len(self.aShuffled)), i )
+            self.output_RandomValue( self.aShuffled[self.nIndex] )
+        # if not shuffle
+        else:
+            self.nIndex = self.nMax - self.nMin
+            self.output_RandomValue( random.randint( nMin, nMax ) )]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="Generate a random integer." id="2" /><Output name="output_RandomValue" type="2" type_size="1" nature="2" inner="0" tooltip="The random value obtained." id="3" /><Parameter name="Min value" inherits_from_parent="0" content_type="1" value="0" default_value="0" min="0" max="1000" tooltip="The minimum value you can get." id="4" /><Parameter name="Max value" inherits_from_parent="0" content_type="1" value="9" default_value="10" min="0" max="1000" tooltip="The maximum number you can get." id="5" /><Parameter name="Shuffle" inherits_from_parent="0" content_type="0" value="1" default_value="0" tooltip="When this option is selected the box will give all the numbers between min and&#x0A;max before giving the same number twice." id="6" /></Box><Box name="Switch Case" id="22" localization="8" tooltip="Test input value and stimulate the output matching to this value. If there is no&#x0A;matching output, the default output (onDefault) is stimulated.&#x0A;&#x0A;You can edit a case by left double-clicking on the line. You can add a&#x0A;case by right clicking on a line and selecting &apos;Insert a row&apos;. You can delete&#x0A;a case by right clicking on a line and selecting &apos;Remove a row&apos;." plugin="dispatcher_plugin" x="94" y="703"><bitmap>media/images/box/interaction/choice.png</bitmap><script language="4"><content><![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		try: # disable autoBind
+		  GeneratedClass.__init__(self, False)
+		except TypeError: # if NAOqi < 1.14
+		  GeneratedClass.__init__( self )
+
+	def onInput_onStart(self, p):
+		p = self.typeConversion(p)
+		if(p == self.typeConversion(0)):
+			self.output_1(p)
+		elif(p == self.typeConversion(1)):
+			self.output_2(p)
+		elif(p == self.typeConversion(2)):
+			self.output_3(p)
+		elif(p == self.typeConversion(3)):
+			self.output_4(p)
+		elif(p == self.typeConversion(4)):
+			self.output_5(p)
+		elif(p == self.typeConversion(5)):
+			self.output_6(p)
+		elif(p == self.typeConversion(6)):
+			self.output_7(p)
+		elif(p == self.typeConversion(7)):
+			self.output_8(p)
+		elif(p == self.typeConversion(8)):
+			self.output_9(p)
+		else:
+			self.onDefault()
+
+	def typeConversion(self, p):
+		try:
+			p = float(p)
+			pint = int(p)
+			if( p == pint ):
+				p = pint
+		except:
+			p = str(p)
+		return p]]></content></script><pluginContent><keywords><keyword>0</keyword><keyword>1</keyword><keyword>2</keyword><keyword>3</keyword><keyword>4</keyword><keyword>5</keyword><keyword>6</keyword><keyword>7</keyword><keyword>8</keyword><keyword></keyword></keywords></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="0" type_size="1" nature="1" inner="0" tooltip="Value to test." id="2" /><Output name="onDefault" type="1" type_size="1" nature="2" inner="0" tooltip="If the input value does not match any value set on the box." id="3" /><Output name="output_1" type="0" type_size="1" nature="2" inner="0" tooltip="This IO has been automatically added by box. Read box tooltip for more information." id="4" /><Output name="output_2" type="0" type_size="1" nature="2" inner="0" tooltip="This IO has been automatically added by box. Read box tooltip for more information." id="5" /><Output name="output_3" type="0" type_size="1" nature="2" inner="0" tooltip="This IO has been automatically added by box. Read box tooltip for more information." id="6" /><Output name="output_4" type="0" type_size="1" nature="2" inner="0" tooltip="This IO has been automatically added by box. Read box tooltip for more information." id="7" /><Output name="output_5" type="0" type_size="1" nature="2" inner="0" tooltip="This IO has been automatically added by box. Read box tooltip for more information." id="8" /><Output name="output_6" type="0" type_size="1" nature="2" inner="0" tooltip="This IO has been automatically added by box. Read box tooltip for more information." id="9" /><Output name="output_7" type="0" type_size="1" nature="2" inner="0" tooltip="This IO has been automatically added by box. Read box tooltip for more information." id="10" /><Output name="output_8" type="0" type_size="1" nature="2" inner="0" tooltip="This IO has been automatically added by box. Read box tooltip for more information." id="11" /><Output name="output_9" type="0" type_size="1" nature="2" inner="0" tooltip="This IO has been automatically added by box. Read box tooltip for more information." id="12" /></Box><Box name="Random Int. (1)" id="24" localization="8" tooltip="Generate a random integer between a min number and a max number set as&#x0A;parameters.&#x0A;Note that the min and max numbers are included in the range of possible values." x="463" y="1507"><bitmap>media/images/box/box-script.png</bitmap><script language="4"><content><![CDATA[import random
+
+class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        # attributes needed in shuffle mode
+        self.nMax = 1
+        self.nMin = 0
+        self.nIndex = self.nMax - self.nMin
+        self.aShuffled = []
+
+    def onUnload(self):
+         #puts code for box cleanup here
+        pass
+
+    def onInput_onStart(self):
+        nMax = self.getParameter("Max value")
+        nMin = self.getParameter("Min value")
+        if( nMin > nMax ):
+            temp = nMin
+            nMin = nMax
+            nMax = temp
+        # if shuffle
+        if( self.getParameter("Shuffle") ):
+            self.nIndex += 1
+            if( self.nIndex > self.nMax - self.nMin or nMax != self.nMax or nMin != self.nMin ):
+                self.nMax = nMax
+                self.nMin = nMin
+                self.nIndex = 0
+                self.aShuffled = []
+                for i in range( nMin, nMax + 1 ):
+                    self.aShuffled.insert( random.randint(0, len(self.aShuffled)), i )
+            self.output_RandomValue( self.aShuffled[self.nIndex] )
+        # if not shuffle
+        else:
+            self.nIndex = self.nMax - self.nMin
+            self.output_RandomValue( random.randint( nMin, nMax ) )]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="Generate a random integer." id="2" /><Output name="output_RandomValue" type="2" type_size="1" nature="2" inner="0" tooltip="The random value obtained." id="3" /><Parameter name="Min value" inherits_from_parent="0" content_type="1" value="0" default_value="0" min="0" max="1000" tooltip="The minimum value you can get." id="4" /><Parameter name="Max value" inherits_from_parent="0" content_type="1" value="3" default_value="10" min="0" max="1000" tooltip="The maximum number you can get." id="5" /><Parameter name="Shuffle" inherits_from_parent="0" content_type="0" value="1" default_value="0" tooltip="When this option is selected the box will give all the numbers between min and&#x0A;max before giving the same number twice." id="6" /></Box><Box name="Switch Case (1)" id="25" localization="8" tooltip="Test input value and stimulate the output matching to this value. If there is no&#x0A;matching output, the default output (onDefault) is stimulated.&#x0A;&#x0A;You can edit a case by left double-clicking on the line. You can add a&#x0A;case by right clicking on a line and selecting &apos;Insert a row&apos;. You can delete&#x0A;a case by right clicking on a line and selecting &apos;Remove a row&apos;." plugin="dispatcher_plugin" x="396" y="1685"><bitmap>media/images/box/interaction/choice.png</bitmap><script language="4"><content><![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		try: # disable autoBind
+		  GeneratedClass.__init__(self, False)
+		except TypeError: # if NAOqi < 1.14
+		  GeneratedClass.__init__( self )
+
+	def onInput_onStart(self, p):
+		p = self.typeConversion(p)
+		if(p == self.typeConversion(0)):
+			self.output_1(p)
+		elif(p == self.typeConversion(1)):
+			self.output_2(p)
+		elif(p == self.typeConversion(2)):
+			self.output_3(p)
+		else:
+			self.onDefault()
+
+	def typeConversion(self, p):
+		try:
+			p = float(p)
+			pint = int(p)
+			if( p == pint ):
+				p = pint
+		except:
+			p = str(p)
+		return p]]></content></script><pluginContent><keywords><keyword>0</keyword><keyword>1</keyword><keyword>2</keyword><keyword></keyword></keywords></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="0" type_size="1" nature="1" inner="0" tooltip="Value to test." id="2" /><Output name="onDefault" type="1" type_size="1" nature="2" inner="0" tooltip="If the input value does not match any value set on the box." id="3" /><Output name="output_1" type="0" type_size="1" nature="2" inner="0" tooltip="This IO has been automatically added by box. Read box tooltip for more information." id="4" /><Output name="output_2" type="0" type_size="1" nature="2" inner="0" tooltip="This IO has been automatically added by box. Read box tooltip for more information." id="5" /><Output name="output_3" type="0" type_size="1" nature="2" inner="0" tooltip="This IO has been automatically added by box. Read box tooltip for more information." id="6" /></Box><Box name="FancyRightArmCircle_LeanRight_01" id="26" localization="8" tooltip="ID : #01E 0003&#x0A;&#x0A;===================&#x0A;&#x0A;Tags : &#x0A;- What?&#x0A;- Please&#x0A;- Maybe&#x0A;&#x0A;===================&#x0A;&#x0A;Common dialog : Yes&#x0A;&#x0A;===================&#x0A;&#x0A;Start stance : Center&#x0A;End stance : LeanRight" x="731" y="1470"><bitmap>media/images/box/movement/move.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /><Timeline enable="1" fps="25" start_frame="1" end_frame="-1" size="43"><ActuatorList model=""><ActuatorCurve name="value" actuator="HeadPitch" mute="0" unit="0"><Key frame="7" value="-11.8399" /><Key frame="12" value="-5.46013" smooth="1" symmetrical="1"><Tangent side="left" interpType="bezier" abscissaParam="-2" ordinateParam="1.55258" /><Tangent side="right" interpType="bezier" abscissaParam="2.4" ordinateParam="-1.86309" /></Key><Key frame="18" value="-15.5661" /><Key frame="43" value="-15.5661" /></ActuatorCurve><ActuatorCurve name="value" actuator="LElbowRoll" mute="0" unit="0"><Key frame="15" value="-69.5499" /><Key frame="27" value="-54.2499" /><Key frame="37" value="-67.8935" /></ActuatorCurve><ActuatorCurve name="value" actuator="LElbowYaw" mute="0" unit="0"><Key frame="27" value="-77.1713" /><Key frame="37" value="-67.5033" /></ActuatorCurve><ActuatorCurve name="value" actuator="LHand" mute="0" unit="1"><Key frame="27" value="0.3036" /><Key frame="37" value="0.3036" /></ActuatorCurve><ActuatorCurve name="value" actuator="LShoulderPitch" mute="0" unit="0"><Key frame="27" value="88.5925" /><Key frame="37" value="88.5925" /></ActuatorCurve><ActuatorCurve name="value" actuator="LShoulderRoll" mute="0" unit="0"><Key frame="15" value="38.2438" /><Key frame="27" value="20.0427" /><Key frame="37" value="22.24" /></ActuatorCurve><ActuatorCurve name="value" actuator="LWristYaw" mute="0" unit="0"><Key frame="27" value="-31.5555" /><Key frame="37" value="-13.0104" /></ActuatorCurve><ActuatorCurve name="value" actuator="RElbowRoll" mute="0" unit="0"><Key frame="14" value="64.757" /><Key frame="33" value="37.357" /><Key frame="40" value="64.757" /></ActuatorCurve><ActuatorCurve name="value" actuator="RElbowYaw" mute="0" unit="0"><Key frame="24" value="115.969" /><Key frame="40" value="66.6726" /></ActuatorCurve><ActuatorCurve name="value" actuator="RHand" mute="0" unit="1"><Key frame="14" value="0.25" /><Key frame="24" value="1" /><Key frame="33" value="0.37" /><Key frame="40" value="0.19" /></ActuatorCurve><ActuatorCurve name="value" actuator="RShoulderPitch" mute="0" unit="0"><Key frame="14" value="61" /><Key frame="40" value="89.0367" /></ActuatorCurve><ActuatorCurve name="value" actuator="RShoulderRoll" mute="0" unit="0"><Key frame="24" value="-27.8279" /><Key frame="40" value="-14.5709" /></ActuatorCurve><ActuatorCurve name="value" actuator="RWristYaw" mute="0" unit="0"><Key frame="24" value="95.448" /><Key frame="40" value="2.9" /></ActuatorCurve><ActuatorCurve name="value" actuator="HipPitch" mute="0" unit="0"><Key frame="20" value="-6.33199" /><Key frame="36" value="-2.31647" /></ActuatorCurve><ActuatorCurve name="value" actuator="HipRoll" mute="0" unit="0"><Key frame="20" value="-1.39729" /><Key frame="36" value="-3.23526" /></ActuatorCurve><ActuatorCurve name="value" actuator="KneePitch" mute="0" unit="0"><Key frame="20" value="2.50848" /><Key frame="36" value="-0.365269" /></ActuatorCurve></ActuatorList></Timeline><Resource name="Standing" type="Lock" timeout="1" /><Resource name="All motors" type="Lock" timeout="1" /></Box><Box name="LittleArmsBumpInFront_LeanRight_01" id="27" localization="8" tooltip='ID : #01E 0005&#x0A;&#x0A;===================&#x0A;&#x0A;Tags : &#x0A;- Why?&#x0A;- &quot;?&quot;&#x0A;- When?&#x0A;- Where?&#x0A;&#x0A;===================&#x0A;&#x0A;Common dialog : Yes&#x0A;&#x0A;===================&#x0A;&#x0A;Start stance : LeanRight&#x0A;End stance : LeanRight' x="734" y="1632"><bitmap>media/images/box/movement/move.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /><Timeline enable="1" fps="25" start_frame="1" end_frame="-1" size="40"><ActuatorList model=""><ActuatorCurve name="value" actuator="HeadPitch" mute="0" unit="0"><Key frame="13" value="-10.1614" /><Key frame="19" value="-25.8641" smooth="1" symmetrical="1"><Tangent side="left" interpType="bezier" abscissaParam="-2.91739" ordinateParam="0.000291739" /><Tangent side="right" interpType="bezier" abscissaParam="3.40362" ordinateParam="-0.000340362" /></Key><Key frame="26" value="-12.54" /><Key frame="39" value="-16.6654" /></ActuatorCurve><ActuatorCurve name="value" actuator="HeadYaw" mute="0" unit="0"><Key frame="13" value="1.31597" /><Key frame="26" value="3.51326" /><Key frame="39" value="1.75543" /></ActuatorCurve><ActuatorCurve name="value" actuator="LElbowRoll" mute="0" unit="0"><Key frame="15" value="-30.4081" /><Key frame="27" value="-42.8888" /><Key frame="38" value="-31.287" /></ActuatorCurve><ActuatorCurve name="value" actuator="LElbowYaw" mute="0" unit="0"><Key frame="15" value="-79.0171" /><Key frame="27" value="-108.461" /><Key frame="38" value="-74.0951" /></ActuatorCurve><ActuatorCurve name="value" actuator="LHand" mute="0" unit="1"><Key frame="15" value="0.18" /><Key frame="27" value="0.56" /><Key frame="38" value="0.3068" /></ActuatorCurve><ActuatorCurve name="value" actuator="LShoulderPitch" mute="0" unit="0"><Key frame="15" value="79.6275" /><Key frame="27" value="75.8482" /><Key frame="38" value="81.2974" /></ActuatorCurve><ActuatorCurve name="value" actuator="LShoulderRoll" mute="0" unit="0"><Key frame="15" value="13.8124" /><Key frame="27" value="16.9765" /><Key frame="38" value="10.912" /></ActuatorCurve><ActuatorCurve name="value" actuator="LWristYaw" mute="0" unit="0"><Key frame="15" value="-12.2194" /><Key frame="27" value="-66.888" /><Key frame="38" value="-6.06693" /></ActuatorCurve><ActuatorCurve name="value" actuator="RElbowRoll" mute="0" unit="0"><Key frame="14" value="40.1689" /><Key frame="25" value="56.1652" /><Key frame="40" value="42.8936" /></ActuatorCurve><ActuatorCurve name="value" actuator="RElbowYaw" mute="0" unit="0"><Key frame="14" value="81.5611" /><Key frame="25" value="111.444" /><Key frame="40" value="72.8" /></ActuatorCurve><ActuatorCurve name="value" actuator="RHand" mute="0" unit="1"><Key frame="14" value="0.18" /><Key frame="25" value="0.56" /><Key frame="40" value="0.3068" /></ActuatorCurve><ActuatorCurve name="value" actuator="RShoulderPitch" mute="0" unit="0"><Key frame="14" value="82.1812" /><Key frame="25" value="80.7749" /><Key frame="40" value="86.5758" /></ActuatorCurve><ActuatorCurve name="value" actuator="RShoulderRoll" mute="0" unit="0"><Key frame="14" value="-13.5704" /><Key frame="25" value="-12.34" /><Key frame="40" value="-14.713" /></ActuatorCurve><ActuatorCurve name="value" actuator="RWristYaw" mute="0" unit="0"><Key frame="14" value="4.30429" /><Key frame="25" value="54.1389" /><Key frame="40" value="8.17153" /></ActuatorCurve><ActuatorCurve name="value" actuator="HipPitch" mute="0" unit="0"><Key frame="11" value="-8.63141" /><Key frame="26" value="2.25681" /><Key frame="39" value="-1.93656" /></ActuatorCurve><ActuatorCurve name="value" actuator="HipRoll" mute="0" unit="0"><Key frame="26" value="-3.9571" /><Key frame="39" value="-5.3222" /></ActuatorCurve><ActuatorCurve name="value" actuator="KneePitch" mute="0" unit="0"><Key frame="11" value="2.71499" /><Key frame="26" value="-1.42345" /><Key frame="39" value="0.0934687" /></ActuatorCurve></ActuatorList></Timeline><Resource name="Standing" type="Lock" timeout="1" /><Resource name="All motors" type="Lock" timeout="1" /></Box><Box name="GoToStance_Question_LeanRight" id="28" localization="8" tooltip="ID : #01E 9993&#x0A;&#x0A;===================&#x0A;&#x0A;Tags : &#x0A;- Transition&#x0A;&#x0A;===================&#x0A;&#x0A;Common dialog : Yes&#x0A;&#x0A;===================&#x0A;&#x0A;Start stance : Center&#x0A;End stance : LeanRight" x="713" y="1757"><bitmap>media/images/box/movement/move.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /><Timeline enable="1" fps="25" start_frame="1" end_frame="-1" size="40"><ActuatorList model=""><ActuatorCurve name="value" actuator="HeadPitch" mute="0" unit="0"><Key frame="18" value="-10.9565" /><Key frame="35" value="-19.5723" /></ActuatorCurve><ActuatorCurve name="value" actuator="HeadYaw" mute="0" unit="0"><Key frame="35" value="-2.90283" /></ActuatorCurve><ActuatorCurve name="value" actuator="HipPitch" mute="0" unit="0"><Key frame="23" value="-14.8632" /><Key frame="36" value="-3.12819" /></ActuatorCurve><ActuatorCurve name="value" actuator="HipRoll" mute="0" unit="0"><Key frame="36" value="-5.87256" /></ActuatorCurve><ActuatorCurve name="value" actuator="KneePitch" mute="0" unit="0"><Key frame="23" value="7.4673" /><Key frame="36" value="-0.452605" /></ActuatorCurve><ActuatorCurve name="value" actuator="LElbowRoll" mute="0" unit="0"><Key frame="17" value="-16.1591" /><Key frame="33" value="-71.4384" /><Key frame="39" value="-65.9058" /></ActuatorCurve><ActuatorCurve name="value" actuator="LElbowYaw" mute="0" unit="0"><Key frame="17" value="-106.392" /><Key frame="26" value="-104.546" /><Key frame="39" value="-114.039" /></ActuatorCurve><ActuatorCurve name="value" actuator="LHand" mute="0" unit="1"><Key frame="17" value="0.5952" /><Key frame="26" value="0.5872" /><Key frame="33" value="0.45" /><Key frame="39" value="0.77" /></ActuatorCurve><ActuatorCurve name="value" actuator="LShoulderPitch" mute="0" unit="0"><Key frame="15" value="89.9987" /><Key frame="24" value="69.6" /><Key frame="37" value="96.5027" /></ActuatorCurve><ActuatorCurve name="value" actuator="LShoulderRoll" mute="0" unit="0"><Key frame="15" value="13.9296" /><Key frame="24" value="3.87988" /><Key frame="37" value="0.5" /></ActuatorCurve><ActuatorCurve name="value" actuator="LWristYaw" mute="0" unit="0"><Key frame="17" value="-72.5131" /><Key frame="26" value="-77.6987" /><Key frame="39" value="-61.8782" /></ActuatorCurve><ActuatorCurve name="value" actuator="RElbowRoll" mute="0" unit="0"><Key frame="18" value="13.8632" /><Key frame="34" value="74.8507" /><Key frame="40" value="66.9498" /></ActuatorCurve><ActuatorCurve name="value" actuator="RElbowYaw" mute="0" unit="0"><Key frame="18" value="95.9079" /><Key frame="27" value="94.9411" /><Key frame="40" value="105.927" /></ActuatorCurve><ActuatorCurve name="value" actuator="RHand" mute="0" unit="1"><Key frame="18" value="0.5484" /><Key frame="27" value="0.5412" /><Key frame="34" value="0.45" /><Key frame="40" value="0.77" /></ActuatorCurve><ActuatorCurve name="value" actuator="RShoulderPitch" mute="0" unit="0"><Key frame="16" value="87.191" /><Key frame="25" value="69.6" /><Key frame="38" value="99.4079" /></ActuatorCurve><ActuatorCurve name="value" actuator="RShoulderRoll" mute="0" unit="0"><Key frame="16" value="-14.1495" /><Key frame="25" value="-6.1213" /><Key frame="38" value="-0.5" /></ActuatorCurve><ActuatorCurve name="value" actuator="RWristYaw" mute="0" unit="0"><Key frame="18" value="86.3073" /><Key frame="27" value="88.5046" /><Key frame="40" value="74.6177" /></ActuatorCurve></ActuatorList></Timeline><Resource name="Standing" type="Lock" timeout="1" /><Resource name="All motors" type="Lock" timeout="1" /></Box><Box name="WideSpreadArms_FlexEnd_01" id="29" localization="8" tooltip='ID : #01E 0019&#x0A;&#x0A;===================&#x0A;&#x0A;Tags : &#x0A;- Why?&#x0A;- What?&#x0A;- &quot;?&quot;&#x0A;- When&#x0A;- Where?&#x0A;- Who?&#x0A;&#x0A;===================&#x0A;&#x0A;Common dialog : Yes&#x0A;&#x0A;===================&#x0A;&#x0A;Start stance : Center&#x0A;End stance : Flex' x="713" y="1905"><bitmap>media/images/box/movement/move.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /><Timeline enable="1" fps="25" start_frame="1" end_frame="-1" size="41"><ActuatorList model=""><ActuatorCurve name="value" actuator="HeadPitch" mute="0" unit="0"><Key frame="10" value="-14.4" /><Key frame="27" value="-4" /><Key frame="40" value="-6" /></ActuatorCurve><ActuatorCurve name="value" actuator="LElbowRoll" mute="0" unit="0"><Key frame="11" value="-23.6715" /><Key frame="21" value="-79.7" /><Key frame="28" value="-40.9" /><Key frame="41" value="-47.8" /></ActuatorCurve><ActuatorCurve name="value" actuator="LElbowYaw" mute="0" unit="0"><Key frame="11" value="-68.6579" /><Key frame="33" value="-119.5" /></ActuatorCurve><ActuatorCurve name="value" actuator="LHand" mute="0" unit="1"><Key frame="11" value="0.302524" /><Key frame="33" value="0.75" /></ActuatorCurve><ActuatorCurve name="value" actuator="LShoulderPitch" mute="0" unit="0"><Key frame="11" value="84.228" /><Key frame="21" value="106" /><Key frame="33" value="90.9" /></ActuatorCurve><ActuatorCurve name="value" actuator="LShoulderRoll" mute="0" unit="0"><Key frame="11" value="10.2642" /><Key frame="33" value="14.3" /></ActuatorCurve><ActuatorCurve name="value" actuator="LWristYaw" mute="0" unit="0"><Key frame="11" value="5.60943" /><Key frame="21" value="-31" /><Key frame="33" value="-104.5" /></ActuatorCurve><ActuatorCurve name="value" actuator="RElbowRoll" mute="0" unit="0"><Key frame="11" value="23.6715" /><Key frame="21" value="79.7" /><Key frame="28" value="40.9" /><Key frame="41" value="47.8" /></ActuatorCurve><ActuatorCurve name="value" actuator="RElbowYaw" mute="0" unit="0"><Key frame="11" value="68.6579" /><Key frame="33" value="119.5" /></ActuatorCurve><ActuatorCurve name="value" actuator="RHand" mute="0" unit="1"><Key frame="11" value="0.302524" /><Key frame="33" value="0.75" /></ActuatorCurve><ActuatorCurve name="value" actuator="RShoulderPitch" mute="0" unit="0"><Key frame="11" value="84.228" /><Key frame="21" value="106" /><Key frame="33" value="90.9" /></ActuatorCurve><ActuatorCurve name="value" actuator="RShoulderRoll" mute="0" unit="0"><Key frame="11" value="-10.2642" /><Key frame="33" value="-14.3" /></ActuatorCurve><ActuatorCurve name="value" actuator="RWristYaw" mute="0" unit="0"><Key frame="11" value="5.83122" /><Key frame="21" value="31" /><Key frame="33" value="104.5" /></ActuatorCurve><ActuatorCurve name="value" actuator="HipPitch" mute="0" unit="0"><Key frame="11" value="-2.68258" /><Key frame="28" value="-12.4573" /><Key frame="41" value="-3.56465" /></ActuatorCurve><ActuatorCurve name="value" actuator="HipRoll" mute="0" unit="0"><Key frame="11" value="-0.599381" /><Key frame="28" value="-3.34955" /><Key frame="41" value="-3.34955" /></ActuatorCurve><ActuatorCurve name="value" actuator="KneePitch" mute="0" unit="0"><Key frame="11" value="-0.850379" /><Key frame="28" value="4.71104" /><Key frame="41" value="0.228756" /></ActuatorCurve></ActuatorList></Timeline><Resource name="Standing" type="Lock" timeout="1" /><Resource name="All motors" type="Lock" timeout="1" /></Box><Box name="Say Text" id="23" localization="8" tooltip="Say the text received on its input." x="626" y="38"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
+
+class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+        self.tts = ALProxy('ALTextToSpeech')
+        self.ttsStop = ALProxy('ALTextToSpeech', True) #Create another proxy as wait is blocking if audioout is remote
+
+    def onLoad(self):
+        self.bIsRunning = False
+        self.ids = []
+
+    def onUnload(self):
+        for id in self.ids:
+            try:
+                self.ttsStop.stop(id)
+            except:
+                pass
+        while( self.bIsRunning ):
+            time.sleep( 0.2 )
+
+    def onInput_onStart(self, p):
+        self.bIsRunning = True
+        try:
+            sentence = "\RSPD="+ str( self.getParameter("Speed (%)") ) + "\ "
+            sentence += "\VCT="+ str( self.getParameter("Voice shaping (%)") ) + "\ "
+            sentence += str(p)
+            sentence +=  "\RST\ "
+            id = self.tts.post.say(str(sentence))
+            self.ids.append(id)
+            self.tts.wait(id, 0)
+        finally:
+            try:
+                self.ids.remove(id)
+            except:
+                pass
+            if( self.ids == [] ):
+                self.onStopped() # activate output of the box
+                self.bIsRunning = False
+
+    def onInput_onStop(self):
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="3" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" /><Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" /><Resource name="Speech" type="Lock" timeout="0" /></Box><Box name="Say Text (1)" id="30" localization="8" tooltip="Say the text received on its input." x="628" y="197"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
+
+class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+        self.tts = ALProxy('ALTextToSpeech')
+        self.ttsStop = ALProxy('ALTextToSpeech', True) #Create another proxy as wait is blocking if audioout is remote
+
+    def onLoad(self):
+        self.bIsRunning = False
+        self.ids = []
+
+    def onUnload(self):
+        for id in self.ids:
+            try:
+                self.ttsStop.stop(id)
+            except:
+                pass
+        while( self.bIsRunning ):
+            time.sleep( 0.2 )
+
+    def onInput_onStart(self, p):
+        self.bIsRunning = True
+        try:
+            sentence = "\RSPD="+ str( self.getParameter("Speed (%)") ) + "\ "
+            sentence += "\VCT="+ str( self.getParameter("Voice shaping (%)") ) + "\ "
+            sentence += str(p)
+            sentence +=  "\RST\ "
+            id = self.tts.post.say(str(sentence))
+            self.ids.append(id)
+            self.tts.wait(id, 0)
+        finally:
+            try:
+                self.ids.remove(id)
+            except:
+                pass
+            if( self.ids == [] ):
+                self.onStopped() # activate output of the box
+                self.bIsRunning = False
+
+    def onInput_onStop(self):
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="3" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" /><Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" /><Resource name="Speech" type="Lock" timeout="0" /></Box><Box name="Say Text (2)" id="31" localization="8" tooltip="Say the text received on its input." x="632" y="343"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
+
+class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+        self.tts = ALProxy('ALTextToSpeech')
+        self.ttsStop = ALProxy('ALTextToSpeech', True) #Create another proxy as wait is blocking if audioout is remote
+
+    def onLoad(self):
+        self.bIsRunning = False
+        self.ids = []
+
+    def onUnload(self):
+        for id in self.ids:
+            try:
+                self.ttsStop.stop(id)
+            except:
+                pass
+        while( self.bIsRunning ):
+            time.sleep( 0.2 )
+
+    def onInput_onStart(self, p):
+        self.bIsRunning = True
+        try:
+            sentence = "\RSPD="+ str( self.getParameter("Speed (%)") ) + "\ "
+            sentence += "\VCT="+ str( self.getParameter("Voice shaping (%)") ) + "\ "
+            sentence += str(p)
+            sentence +=  "\RST\ "
+            id = self.tts.post.say(str(sentence))
+            self.ids.append(id)
+            self.tts.wait(id, 0)
+        finally:
+            try:
+                self.ids.remove(id)
+            except:
+                pass
+            if( self.ids == [] ):
+                self.onStopped() # activate output of the box
+                self.bIsRunning = False
+
+    def onInput_onStop(self):
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="3" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" /><Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" /><Resource name="Speech" type="Lock" timeout="0" /></Box><Box name="Say Text (3)" id="32" localization="8" tooltip="Say the text received on its input." x="635" y="473"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
+
+class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+        self.tts = ALProxy('ALTextToSpeech')
+        self.ttsStop = ALProxy('ALTextToSpeech', True) #Create another proxy as wait is blocking if audioout is remote
+
+    def onLoad(self):
+        self.bIsRunning = False
+        self.ids = []
+
+    def onUnload(self):
+        for id in self.ids:
+            try:
+                self.ttsStop.stop(id)
+            except:
+                pass
+        while( self.bIsRunning ):
+            time.sleep( 0.2 )
+
+    def onInput_onStart(self, p):
+        self.bIsRunning = True
+        try:
+            sentence = "\RSPD="+ str( self.getParameter("Speed (%)") ) + "\ "
+            sentence += "\VCT="+ str( self.getParameter("Voice shaping (%)") ) + "\ "
+            sentence += str(p)
+            sentence +=  "\RST\ "
+            id = self.tts.post.say(str(sentence))
+            self.ids.append(id)
+            self.tts.wait(id, 0)
+        finally:
+            try:
+                self.ids.remove(id)
+            except:
+                pass
+            if( self.ids == [] ):
+                self.onStopped() # activate output of the box
+                self.bIsRunning = False
+
+    def onInput_onStop(self):
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="3" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" /><Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" /><Resource name="Speech" type="Lock" timeout="0" /></Box><Box name="Say Text (4)" id="33" localization="8" tooltip="Say the text received on its input." x="630" y="589"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
+
+class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+        self.tts = ALProxy('ALTextToSpeech')
+        self.ttsStop = ALProxy('ALTextToSpeech', True) #Create another proxy as wait is blocking if audioout is remote
+
+    def onLoad(self):
+        self.bIsRunning = False
+        self.ids = []
+
+    def onUnload(self):
+        for id in self.ids:
+            try:
+                self.ttsStop.stop(id)
+            except:
+                pass
+        while( self.bIsRunning ):
+            time.sleep( 0.2 )
+
+    def onInput_onStart(self, p):
+        self.bIsRunning = True
+        try:
+            sentence = "\RSPD="+ str( self.getParameter("Speed (%)") ) + "\ "
+            sentence += "\VCT="+ str( self.getParameter("Voice shaping (%)") ) + "\ "
+            sentence += str(p)
+            sentence +=  "\RST\ "
+            id = self.tts.post.say(str(sentence))
+            self.ids.append(id)
+            self.tts.wait(id, 0)
+        finally:
+            try:
+                self.ids.remove(id)
+            except:
+                pass
+            if( self.ids == [] ):
+                self.onStopped() # activate output of the box
+                self.bIsRunning = False
+
+    def onInput_onStop(self):
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="3" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" /><Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" /><Resource name="Speech" type="Lock" timeout="0" /></Box><Box name="Say Text (5)" id="34" localization="8" tooltip="Say the text received on its input." x="632" y="707"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
+
+class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+        self.tts = ALProxy('ALTextToSpeech')
+        self.ttsStop = ALProxy('ALTextToSpeech', True) #Create another proxy as wait is blocking if audioout is remote
+
+    def onLoad(self):
+        self.bIsRunning = False
+        self.ids = []
+
+    def onUnload(self):
+        for id in self.ids:
+            try:
+                self.ttsStop.stop(id)
+            except:
+                pass
+        while( self.bIsRunning ):
+            time.sleep( 0.2 )
+
+    def onInput_onStart(self, p):
+        self.bIsRunning = True
+        try:
+            sentence = "\RSPD="+ str( self.getParameter("Speed (%)") ) + "\ "
+            sentence += "\VCT="+ str( self.getParameter("Voice shaping (%)") ) + "\ "
+            sentence += str(p)
+            sentence +=  "\RST\ "
+            id = self.tts.post.say(str(sentence))
+            self.ids.append(id)
+            self.tts.wait(id, 0)
+        finally:
+            try:
+                self.ids.remove(id)
+            except:
+                pass
+            if( self.ids == [] ):
+                self.onStopped() # activate output of the box
+                self.bIsRunning = False
+
+    def onInput_onStop(self):
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="3" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" /><Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" /><Resource name="Speech" type="Lock" timeout="0" /></Box><Box name="Say Text (6)" id="35" localization="8" tooltip="Say the text received on its input." x="633" y="833"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
+
+class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+        self.tts = ALProxy('ALTextToSpeech')
+        self.ttsStop = ALProxy('ALTextToSpeech', True) #Create another proxy as wait is blocking if audioout is remote
+
+    def onLoad(self):
+        self.bIsRunning = False
+        self.ids = []
+
+    def onUnload(self):
+        for id in self.ids:
+            try:
+                self.ttsStop.stop(id)
+            except:
+                pass
+        while( self.bIsRunning ):
+            time.sleep( 0.2 )
+
+    def onInput_onStart(self, p):
+        self.bIsRunning = True
+        try:
+            sentence = "\RSPD="+ str( self.getParameter("Speed (%)") ) + "\ "
+            sentence += "\VCT="+ str( self.getParameter("Voice shaping (%)") ) + "\ "
+            sentence += str(p)
+            sentence +=  "\RST\ "
+            id = self.tts.post.say(str(sentence))
+            self.ids.append(id)
+            self.tts.wait(id, 0)
+        finally:
+            try:
+                self.ids.remove(id)
+            except:
+                pass
+            if( self.ids == [] ):
+                self.onStopped() # activate output of the box
+                self.bIsRunning = False
+
+    def onInput_onStop(self):
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="3" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" /><Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" /><Resource name="Speech" type="Lock" timeout="0" /></Box><Box name="Say Text (7)" id="36" localization="8" tooltip="Say the text received on its input." x="638" y="965"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
+
+class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+        self.tts = ALProxy('ALTextToSpeech')
+        self.ttsStop = ALProxy('ALTextToSpeech', True) #Create another proxy as wait is blocking if audioout is remote
+
+    def onLoad(self):
+        self.bIsRunning = False
+        self.ids = []
+
+    def onUnload(self):
+        for id in self.ids:
+            try:
+                self.ttsStop.stop(id)
+            except:
+                pass
+        while( self.bIsRunning ):
+            time.sleep( 0.2 )
+
+    def onInput_onStart(self, p):
+        self.bIsRunning = True
+        try:
+            sentence = "\RSPD="+ str( self.getParameter("Speed (%)") ) + "\ "
+            sentence += "\VCT="+ str( self.getParameter("Voice shaping (%)") ) + "\ "
+            sentence += str(p)
+            sentence +=  "\RST\ "
+            id = self.tts.post.say(str(sentence))
+            self.ids.append(id)
+            self.tts.wait(id, 0)
+        finally:
+            try:
+                self.ids.remove(id)
+            except:
+                pass
+            if( self.ids == [] ):
+                self.onStopped() # activate output of the box
+                self.bIsRunning = False
+
+    def onInput_onStop(self):
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="3" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" /><Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" /><Resource name="Speech" type="Lock" timeout="0" /></Box><Box name="Say Text (8)" id="37" localization="8" tooltip="Say the text received on its input." x="657" y="1101"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
+
+class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+        self.tts = ALProxy('ALTextToSpeech')
+        self.ttsStop = ALProxy('ALTextToSpeech', True) #Create another proxy as wait is blocking if audioout is remote
+
+    def onLoad(self):
+        self.bIsRunning = False
+        self.ids = []
+
+    def onUnload(self):
+        for id in self.ids:
+            try:
+                self.ttsStop.stop(id)
+            except:
+                pass
+        while( self.bIsRunning ):
+            time.sleep( 0.2 )
+
+    def onInput_onStart(self, p):
+        self.bIsRunning = True
+        try:
+            sentence = "\RSPD="+ str( self.getParameter("Speed (%)") ) + "\ "
+            sentence += "\VCT="+ str( self.getParameter("Voice shaping (%)") ) + "\ "
+            sentence += str(p)
+            sentence +=  "\RST\ "
+            id = self.tts.post.say(str(sentence))
+            self.ids.append(id)
+            self.tts.wait(id, 0)
+        finally:
+            try:
+                self.ids.remove(id)
+            except:
+                pass
+            if( self.ids == [] ):
+                self.onStopped() # activate output of the box
+                self.bIsRunning = False
+
+    def onInput_onStop(self):
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="3" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" /><Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" /><Resource name="Speech" type="Lock" timeout="0" /></Box><Box name="Say Text (9)" id="38" localization="8" tooltip="Say the text received on its input." x="649" y="1234"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
+
+class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+        self.tts = ALProxy('ALTextToSpeech')
+        self.ttsStop = ALProxy('ALTextToSpeech', True) #Create another proxy as wait is blocking if audioout is remote
+
+    def onLoad(self):
+        self.bIsRunning = False
+        self.ids = []
+
+    def onUnload(self):
+        for id in self.ids:
+            try:
+                self.ttsStop.stop(id)
+            except:
+                pass
+        while( self.bIsRunning ):
+            time.sleep( 0.2 )
+
+    def onInput_onStart(self, p):
+        self.bIsRunning = True
+        try:
+            sentence = "\RSPD="+ str( self.getParameter("Speed (%)") ) + "\ "
+            sentence += "\VCT="+ str( self.getParameter("Voice shaping (%)") ) + "\ "
+            sentence += str(p)
+            sentence +=  "\RST\ "
+            id = self.tts.post.say(str(sentence))
+            self.ids.append(id)
+            self.tts.wait(id, 0)
+        finally:
+            try:
+                self.ids.remove(id)
+            except:
+                pass
+            if( self.ids == [] ):
+                self.onStopped() # activate output of the box
+                self.bIsRunning = False
+
+    def onInput_onStop(self):
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="3" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" /><Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" /><Resource name="Speech" type="Lock" timeout="0" /></Box><Box name="Say Text (10)" id="39" localization="8" tooltip="Say the text received on its input." x="1244" y="309"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
+
+class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+        self.tts = ALProxy('ALTextToSpeech')
+        self.ttsStop = ALProxy('ALTextToSpeech', True) #Create another proxy as wait is blocking if audioout is remote
+
+    def onLoad(self):
+        self.bIsRunning = False
+        self.ids = []
+
+    def onUnload(self):
+        for id in self.ids:
+            try:
+                self.ttsStop.stop(id)
+            except:
+                pass
+        while( self.bIsRunning ):
+            time.sleep( 0.2 )
+
+    def onInput_onStart(self, p):
+        self.bIsRunning = True
+        try:
+            sentence = "\RSPD="+ str( self.getParameter("Speed (%)") ) + "\ "
+            sentence += "\VCT="+ str( self.getParameter("Voice shaping (%)") ) + "\ "
+            sentence += str(p)
+            sentence +=  "\RST\ "
+            id = self.tts.post.say(str(sentence))
+            self.ids.append(id)
+            self.tts.wait(id, 0)
+        finally:
+            try:
+                self.ids.remove(id)
+            except:
+                pass
+            if( self.ids == [] ):
+                self.onStopped() # activate output of the box
+                self.bIsRunning = False
+
+    def onInput_onStop(self):
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="3" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" /><Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" /><Resource name="Speech" type="Lock" timeout="0" /></Box><Box name="Random Int. (2)" id="40" localization="8" tooltip="Generate a random integer between a min number and a max number set as&#x0A;parameters.&#x0A;Note that the min and max numbers are included in the range of possible values." x="1379" y="305"><bitmap>media/images/box/box-script.png</bitmap><script language="4"><content><![CDATA[import random
+
+class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        # attributes needed in shuffle mode
+        self.nMax = 1
+        self.nMin = 0
+        self.nIndex = self.nMax - self.nMin
+        self.aShuffled = []
+
+    def onUnload(self):
+         #puts code for box cleanup here
+        pass
+
+    def onInput_onStart(self):
+        nMax = self.getParameter("Max value")
+        nMin = self.getParameter("Min value")
+        if( nMin > nMax ):
+            temp = nMin
+            nMin = nMax
+            nMax = temp
+        # if shuffle
+        if( self.getParameter("Shuffle") ):
+            self.nIndex += 1
+            if( self.nIndex > self.nMax - self.nMin or nMax != self.nMax or nMin != self.nMin ):
+                self.nMax = nMax
+                self.nMin = nMin
+                self.nIndex = 0
+                self.aShuffled = []
+                for i in range( nMin, nMax + 1 ):
+                    self.aShuffled.insert( random.randint(0, len(self.aShuffled)), i )
+            self.output_RandomValue( self.aShuffled[self.nIndex] )
+        # if not shuffle
+        else:
+            self.nIndex = self.nMax - self.nMin
+            self.output_RandomValue( random.randint( nMin, nMax ) )]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="Generate a random integer." id="2" /><Output name="output_RandomValue" type="2" type_size="1" nature="2" inner="0" tooltip="The random value obtained." id="3" /><Parameter name="Min value" inherits_from_parent="0" content_type="1" value="0" default_value="0" min="0" max="1000" tooltip="The minimum value you can get." id="4" /><Parameter name="Max value" inherits_from_parent="0" content_type="1" value="3" default_value="10" min="0" max="1000" tooltip="The maximum number you can get." id="5" /><Parameter name="Shuffle" inherits_from_parent="0" content_type="0" value="1" default_value="0" tooltip="When this option is selected the box will give all the numbers between min and&#x0A;max before giving the same number twice." id="6" /></Box><Box name="Switch Case (2)" id="41" localization="8" tooltip="Test input value and stimulate the output matching to this value. If there is no&#x0A;matching output, the default output (onDefault) is stimulated.&#x0A;&#x0A;You can edit a case by left double-clicking on the line. You can add a&#x0A;case by right clicking on a line and selecting &apos;Insert a row&apos;. You can delete&#x0A;a case by right clicking on a line and selecting &apos;Remove a row&apos;." plugin="dispatcher_plugin" x="1294" y="562"><bitmap>media/images/box/interaction/choice.png</bitmap><script language="4"><content><![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		try: # disable autoBind
+		  GeneratedClass.__init__(self, False)
+		except TypeError: # if NAOqi < 1.14
+		  GeneratedClass.__init__( self )
+
+	def onInput_onStart(self, p):
+		p = self.typeConversion(p)
+		if(p == self.typeConversion(0)):
+			self.output_1(p)
+		elif(p == self.typeConversion(1)):
+			self.output_2(p)
+		elif(p == self.typeConversion(2)):
+			self.output_3(p)
+		else:
+			self.onDefault()
+
+	def typeConversion(self, p):
+		try:
+			p = float(p)
+			pint = int(p)
+			if( p == pint ):
+				p = pint
+		except:
+			p = str(p)
+		return p]]></content></script><pluginContent><keywords><keyword>0</keyword><keyword>1</keyword><keyword>2</keyword><keyword></keyword></keywords></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="0" type_size="1" nature="1" inner="0" tooltip="Value to test." id="2" /><Output name="onDefault" type="1" type_size="1" nature="2" inner="0" tooltip="If the input value does not match any value set on the box." id="3" /><Output name="output_1" type="0" type_size="1" nature="2" inner="0" tooltip="This IO has been automatically added by box. Read box tooltip for more information." id="4" /><Output name="output_2" type="0" type_size="1" nature="2" inner="0" tooltip="This IO has been automatically added by box. Read box tooltip for more information." id="5" /><Output name="output_3" type="0" type_size="1" nature="2" inner="0" tooltip="This IO has been automatically added by box. Read box tooltip for more information." id="6" /></Box><Box name="OfferBothHands_HeadNod_LeanLeft_01" id="42" localization="8" tooltip="ID : #01C 0021&#x0A;&#x0A;===================&#x0A;&#x0A;Tags : &#x0A;- Affirmative&#x0A;- Indicate&#x0A;- Exactly&#x0A;&#x0A;===================&#x0A;&#x0A;Common dialog : No&#x0A;&#x0A;===================&#x0A;&#x0A;Start stance : Center&#x0A;End stance : LeanLeft" x="1591" y="254"><bitmap>media/images/box/movement/move.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /><Timeline enable="1" fps="25" start_frame="1" end_frame="-1" size="58"><ActuatorList model=""><ActuatorCurve name="value" actuator="HeadPitch" mute="0" unit="0"><Key frame="27" value="-13.6622" /><Key frame="34" value="-3.64635" /><Key frame="41" value="-11.7228" /><Key frame="55" value="-12.3438" /></ActuatorCurve><ActuatorCurve name="value" actuator="LElbowRoll" mute="0" unit="0"><Key frame="13" value="-42.4" /><Key frame="33" value="-88.5" /><Key frame="45" value="-36.6" /><Key frame="58" value="-62.4" /></ActuatorCurve><ActuatorCurve name="value" actuator="LElbowYaw" mute="0" unit="0"><Key frame="13" value="-108.67" /><Key frame="21" value="-108.3" /><Key frame="45" value="-71" /><Key frame="58" value="-33.6" /></ActuatorCurve><ActuatorCurve name="value" actuator="LHand" mute="0" unit="1"><Key frame="13" value="0.339847" /><Key frame="21" value="0.4844" /><Key frame="33" value="0.69" /><Key frame="45" value="0.98" /><Key frame="58" value="0.04" /></ActuatorCurve><ActuatorCurve name="value" actuator="LShoulderPitch" mute="0" unit="0"><Key frame="13" value="69.2907" /><Key frame="21" value="58.1399" /><Key frame="33" value="52.4" /><Key frame="45" value="78.9" /><Key frame="58" value="64.5" /></ActuatorCurve><ActuatorCurve name="value" actuator="LShoulderRoll" mute="0" unit="0"><Key frame="13" value="20.4" /><Key frame="21" value="31.2482" /><Key frame="33" value="51" /><Key frame="45" value="37" /><Key frame="58" value="20.4" /></ActuatorCurve><ActuatorCurve name="value" actuator="LWristYaw" mute="0" unit="0"><Key frame="13" value="-58.8296" /><Key frame="33" value="-53.7" smooth="1" symmetrical="1"><Tangent side="left" interpType="bezier" abscissaParam="-5.57231" ordinateParam="-17.9647" /><Tangent side="right" interpType="bezier" abscissaParam="3.34338" ordinateParam="10.7788" /></Key><Key frame="45" value="-77.1713" /><Key frame="58" value="22.41" /></ActuatorCurve><ActuatorCurve name="value" actuator="RElbowRoll" mute="0" unit="0"><Key frame="12" value="42.4" /><Key frame="32" value="88.5" /><Key frame="44" value="36.6" /><Key frame="57" value="62.4" /></ActuatorCurve><ActuatorCurve name="value" actuator="RElbowYaw" mute="0" unit="0"><Key frame="12" value="108.67" /><Key frame="20" value="108.3" /><Key frame="44" value="71" /><Key frame="57" value="33.6" /></ActuatorCurve><ActuatorCurve name="value" actuator="RHand" mute="0" unit="1"><Key frame="12" value="0.339847" /><Key frame="20" value="0.4812" /><Key frame="32" value="0.69" /><Key frame="44" value="0.98" /><Key frame="57" value="0.04" /></ActuatorCurve><ActuatorCurve name="value" actuator="RShoulderPitch" mute="0" unit="0"><Key frame="12" value="69.2907" /><Key frame="20" value="59.4631" /><Key frame="32" value="52.4" /><Key frame="44" value="78.9" /><Key frame="57" value="64.5" /></ActuatorCurve><ActuatorCurve name="value" actuator="RShoulderRoll" mute="0" unit="0"><Key frame="12" value="-20.4" /><Key frame="20" value="-39.9036" /><Key frame="32" value="-51" /><Key frame="44" value="-37" /><Key frame="57" value="-15.2201" /></ActuatorCurve><ActuatorCurve name="value" actuator="RWristYaw" mute="0" unit="0"><Key frame="12" value="58.8296" /><Key frame="32" value="53.7" smooth="1" symmetrical="1"><Tangent side="left" interpType="bezier" abscissaParam="-5.85834" ordinateParam="16.5987" /><Tangent side="right" interpType="bezier" abscissaParam="3.51499" ordinateParam="-9.95926" /></Key><Key frame="44" value="78.9244" /><Key frame="57" value="22.41" /></ActuatorCurve><ActuatorCurve name="value" actuator="HipPitch" mute="0" unit="0"><Key frame="18" value="-24.7639" /><Key frame="32" value="-7.78226" /><Key frame="53" value="-3.19309" /></ActuatorCurve><ActuatorCurve name="value" actuator="HipRoll" mute="0" unit="0"><Key frame="32" value="4.66302" /><Key frame="53" value="4.66302" /></ActuatorCurve><ActuatorCurve name="value" actuator="KneePitch" mute="0" unit="0"><Key frame="18" value="11.8853" /><Key frame="32" value="2.14051" /><Key frame="53" value="-0.894165" /></ActuatorCurve></ActuatorList></Timeline></Box><Box name="FastGatherBothHandsOnChest_LeanRight_01" id="43" localization="8" tooltip="ID : #01C 0007&#x0A;&#x0A;===================&#x0A;&#x0A;Tags : &#x0A;- Yes&#x0A;- Affirmative&#x0A;- Can&#x0A;- Indicate&#x0A;&#x0A;===================&#x0A;&#x0A;Common dialog : Yes&#x0A;&#x0A;===================&#x0A;&#x0A;Start stance : Flex&#x0A;End stance : LeanRight" x="1606" y="423"><bitmap>media/images/box/movement/move.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /><Timeline enable="1" fps="25" start_frame="1" end_frame="-1" size="37"><ActuatorList model=""><ActuatorCurve name="value" actuator="HeadPitch" mute="0" unit="0"><Key frame="19" value="-12.6953" /><Key frame="27" value="-2.37592" smooth="1"><Tangent side="left" interpType="bezier" abscissaParam="-3.47381" ordinateParam="-7.22162" /><Tangent side="right" interpType="bezier" abscissaParam="3" ordinateParam="6.23664" /></Key><Key frame="36" value="-14.4939" /></ActuatorCurve><ActuatorCurve name="value" actuator="HeadYaw" mute="0" unit="0"><Key frame="19" value="-0.368552" /><Key frame="27" value="-1.40867" /><Key frame="36" value="0" /></ActuatorCurve><ActuatorCurve name="value" actuator="LElbowRoll" mute="0" unit="0"><Key frame="11" value="-60.7324" /><Key frame="21" value="-59.954" /><Key frame="35" value="-67.434" /></ActuatorCurve><ActuatorCurve name="value" actuator="LElbowYaw" mute="0" unit="0"><Key frame="11" value="-94.7461" /><Key frame="21" value="-97.6266" /><Key frame="35" value="-59.0573" /></ActuatorCurve><ActuatorCurve name="value" actuator="LHand" mute="0" unit="1"><Key frame="11" value="0.76" /><Key frame="21" value="0.96" /><Key frame="35" value="0.35" /></ActuatorCurve><ActuatorCurve name="value" actuator="LShoulderPitch" mute="0" unit="0"><Key frame="11" value="92.1973" /><Key frame="21" value="93.3031" /><Key frame="35" value="76.7794" /></ActuatorCurve><ActuatorCurve name="value" actuator="LShoulderRoll" mute="0" unit="0"><Key frame="11" value="6.53335" /><Key frame="21" value="7.20435" /><Key frame="35" value="12.3604" /></ActuatorCurve><ActuatorCurve name="value" actuator="LWristYaw" mute="0" unit="0"><Key frame="11" value="-37.9716" /><Key frame="21" value="-41.4873" /><Key frame="35" value="-7.02456" /></ActuatorCurve><ActuatorCurve name="value" actuator="RElbowRoll" mute="0" unit="0"><Key frame="11" value="57.3047" /><Key frame="21" value="56.0916" /><Key frame="35" value="69.9378" /></ActuatorCurve><ActuatorCurve name="value" actuator="RElbowYaw" mute="0" unit="0"><Key frame="11" value="87.9785" /><Key frame="21" value="90.6783" /><Key frame="35" value="52.3937" /></ActuatorCurve><ActuatorCurve name="value" actuator="RHand" mute="0" unit="1"><Key frame="11" value="0.76" /><Key frame="21" value="0.96" /><Key frame="35" value="0.44" /></ActuatorCurve><ActuatorCurve name="value" actuator="RShoulderPitch" mute="0" unit="0"><Key frame="11" value="90.6152" /><Key frame="21" value="92.0959" /><Key frame="35" value="77.3826" /></ActuatorCurve><ActuatorCurve name="value" actuator="RShoulderRoll" mute="0" unit="0"><Key frame="11" value="-8.01118" /><Key frame="21" value="-7.95798" /><Key frame="35" value="-12.7421" /></ActuatorCurve><ActuatorCurve name="value" actuator="RWristYaw" mute="0" unit="0"><Key frame="11" value="44.9982" /><Key frame="21" value="48.2502" /><Key frame="35" value="13.1722" /></ActuatorCurve><ActuatorCurve name="value" actuator="HipPitch" mute="0" unit="0"><Key frame="13" value="-12.7831" /><Key frame="25" value="-18.7137" /><Key frame="37" value="-2.44489" /></ActuatorCurve><ActuatorCurve name="value" actuator="HipRoll" mute="0" unit="0"><Key frame="13" value="-0.452734" /><Key frame="25" value="-0.452734" /><Key frame="37" value="3.86278" /></ActuatorCurve><ActuatorCurve name="value" actuator="KneePitch" mute="0" unit="0"><Key frame="13" value="5.07475" /><Key frame="25" value="8.54735" /><Key frame="37" value="-0.795767" /></ActuatorCurve></ActuatorList></Timeline></Box><Box name="BothArmsShowGround_LeanBack_01" id="44" localization="8" tooltip='ID : #01F 0005&#x0A;&#x0A;===================&#x0A;&#x0A;Tags : &#x0A;- &quot;!&quot;&#x0A;- Great!&#x0A;- Impressive&#x0A;&#x0A;===================&#x0A;&#x0A;Common dialog : Yes&#x0A;&#x0A;===================&#x0A;&#x0A;Start stance : LeanBack&#x0A;End stance : LeanBack' x="1607" y="580"><bitmap>media/images/box/movement/move.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /><Timeline enable="1" fps="25" start_frame="1" end_frame="-1" size="42"><ActuatorList model=""><ActuatorCurve name="value" actuator="HeadPitch" mute="0" unit="0"><Key frame="28" value="-3.45432" /><Key frame="40" value="-9.1739" /></ActuatorCurve><ActuatorCurve name="value" actuator="HeadYaw" mute="0" unit="0"><Key frame="13" value="3.97113" /><Key frame="20" value="-8.71897" /><Key frame="28" value="5.83536" smooth="1" symmetrical="1"><Tangent side="left" interpType="bezier" abscissaParam="-2.97254" ordinateParam="-0.40132" /><Tangent side="right" interpType="bezier" abscissaParam="4.45882" ordinateParam="0.60198" /></Key><Key frame="40" value="-1.34149" /></ActuatorCurve><ActuatorCurve name="value" actuator="LElbowRoll" mute="0" unit="0"><Key frame="12" value="-26.0183" /><Key frame="25" value="-37.9716" /><Key frame="41" value="-46.1456" /></ActuatorCurve><ActuatorCurve name="value" actuator="LElbowYaw" mute="0" unit="0"><Key frame="12" value="-77.5717" /><Key frame="25" value="-96.1169" /><Key frame="41" value="-97.6989" /></ActuatorCurve><ActuatorCurve name="value" actuator="LHand" mute="0" unit="1"><Key frame="12" value="0.6772" /><Key frame="25" value="0.6796" /><Key frame="41" value="0.4336" /></ActuatorCurve><ActuatorCurve name="value" actuator="LShoulderPitch" mute="0" unit="0"><Key frame="12" value="95.0542" /><Key frame="26" value="79.8101" /><Key frame="42" value="80.3375" /></ActuatorCurve><ActuatorCurve name="value" actuator="LShoulderRoll" mute="0" unit="0"><Key frame="25" value="15.1656" /><Key frame="41" value="22.6659" /></ActuatorCurve><ActuatorCurve name="value" actuator="LWristYaw" mute="0" unit="0"><Key frame="12" value="-69.6078" /><Key frame="25" value="-78.9244" /><Key frame="41" value="-84.7252" /></ActuatorCurve><ActuatorCurve name="value" actuator="RElbowRoll" mute="0" unit="0"><Key frame="14" value="17.4002" /><Key frame="27" value="30.1445" /><Key frame="42" value="38.3184" /></ActuatorCurve><ActuatorCurve name="value" actuator="RElbowYaw" mute="0" unit="0"><Key frame="14" value="82.3569" /><Key frame="27" value="63.1087" /><Key frame="42" value="60.1203" /></ActuatorCurve><ActuatorCurve name="value" actuator="RHand" mute="0" unit="1"><Key frame="14" value="0.6768" /><Key frame="27" value="0.6796" /><Key frame="42" value="0.4328" /></ActuatorCurve><ActuatorCurve name="value" actuator="RShoulderPitch" mute="0" unit="0"><Key frame="14" value="80.7061" /><Key frame="27" value="58.3529" /><Key frame="42" value="55.7162" /></ActuatorCurve><ActuatorCurve name="value" actuator="RShoulderRoll" mute="0" unit="0"><Key frame="27" value="-19.5883" /><Key frame="42" value="-24.4322" /></ActuatorCurve><ActuatorCurve name="value" actuator="RWristYaw" mute="0" unit="0"><Key frame="14" value="53.0011" /><Key frame="27" value="68.9095" /><Key frame="42" value="71.0189" /></ActuatorCurve><ActuatorCurve name="value" actuator="HipPitch" mute="0" unit="0"><Key frame="13" value="-2.26358" /><Key frame="25" value="6.8356" /><Key frame="42" value="-0.932188" /></ActuatorCurve><ActuatorCurve name="value" actuator="HipRoll" mute="0" unit="0"><Key frame="13" value="-0.915874" /><Key frame="25" value="-0.915874" /><Key frame="42" value="-0.321197" /></ActuatorCurve><ActuatorCurve name="value" actuator="KneePitch" mute="0" unit="0"><Key frame="13" value="-0.137991" /><Key frame="25" value="-3.71621" /><Key frame="42" value="0.0685241" /></ActuatorCurve></ActuatorList></Timeline><Resource name="Standing" type="Lock" timeout="1" /><Resource name="All motors" type="Lock" timeout="1" /></Box><Box name="LeftArmOnChest_LeanRight_01" id="45" localization="8" tooltip='ID : #01F 0013&#x0A;&#x0A;===================&#x0A;&#x0A;Tags : &#x0A;- &quot;!&quot;&#x0A;- Great&#x0A;- Impressive&#x0A;&#x0A;===================&#x0A;&#x0A;Common dialog : Yes&#x0A;&#x0A;===================&#x0A;&#x0A;Start stance : LeanRight&#x0A;End stance : LeanRight' x="1609" y="736"><bitmap>media/images/box/movement/move.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /><Timeline enable="1" fps="25" start_frame="1" end_frame="-1" size="37"><ActuatorList model=""><ActuatorCurve name="value" actuator="HeadPitch" mute="0" unit="0"><Key frame="16" value="-9.33056" /><Key frame="24" value="-17.1529" /><Key frame="37" value="-20.0533" /></ActuatorCurve><ActuatorCurve name="value" actuator="HeadYaw" mute="0" unit="0"><Key frame="16" value="10.2809" /><Key frame="24" value="10.9841" /><Key frame="37" value="10.2809" /></ActuatorCurve><ActuatorCurve name="value" actuator="LElbowRoll" mute="0" unit="0"><Key frame="16" value="-29.9155" /><Key frame="24" value="-40.0935" /><Key frame="37" value="-70.9159" /></ActuatorCurve><ActuatorCurve name="value" actuator="LElbowYaw" mute="0" unit="0"><Key frame="16" value="-92.1129" /><Key frame="24" value="-51.0729" /><Key frame="37" value="-52.1937" /></ActuatorCurve><ActuatorCurve name="value" actuator="LHand" mute="0" unit="1"><Key frame="16" value="0.8" /><Key frame="24" value="0.1468" /><Key frame="37" value="0.02" /></ActuatorCurve><ActuatorCurve name="value" actuator="LShoulderPitch" mute="0" unit="0"><Key frame="16" value="75.4966" /><Key frame="24" value="73.2715" /><Key frame="37" value="58.9656" /></ActuatorCurve><ActuatorCurve name="value" actuator="LShoulderRoll" mute="0" unit="0"><Key frame="16" value="20.4636" /><Key frame="24" value="23.8035" /><Key frame="37" value="27.6735" /></ActuatorCurve><ActuatorCurve name="value" actuator="LWristYaw" mute="0" unit="0"><Key frame="16" value="-31.7313" /><Key frame="24" value="0.0854867" /><Key frame="37" value="10.5446" /></ActuatorCurve><ActuatorCurve name="value" actuator="RElbowRoll" mute="0" unit="0"><Key frame="16" value="66.8167" /><Key frame="24" value="52.8568" /><Key frame="37" value="49.7657" /></ActuatorCurve><ActuatorCurve name="value" actuator="RElbowYaw" mute="0" unit="0"><Key frame="16" value="112.057" /><Key frame="24" value="95.9492" /><Key frame="37" value="97.0912" /></ActuatorCurve><ActuatorCurve name="value" actuator="RHand" mute="0" unit="1"><Key frame="16" value="0.1188" /><Key frame="24" value="0.1288" /><Key frame="37" value="0.23" /></ActuatorCurve><ActuatorCurve name="value" actuator="RShoulderPitch" mute="0" unit="0"><Key frame="16" value="112.504" /><Key frame="24" value="110.219" /><Key frame="37" value="110.043" /></ActuatorCurve><ActuatorCurve name="value" actuator="RShoulderRoll" mute="0" unit="0"><Key frame="16" value="-13.2482" /><Key frame="24" value="-20.4591" /><Key frame="37" value="-17.6465" /></ActuatorCurve><ActuatorCurve name="value" actuator="RWristYaw" mute="0" unit="0"><Key frame="16" value="4.65585" /><Key frame="24" value="6.4137" /><Key frame="37" value="4.65585" /></ActuatorCurve><ActuatorCurve name="value" actuator="HipPitch" mute="0" unit="0"><Key frame="11" value="-9.60052" /><Key frame="16" value="-10.1768" /><Key frame="24" value="-4.91125" /><Key frame="37" value="-2.94337" /></ActuatorCurve><ActuatorCurve name="value" actuator="HipRoll" mute="0" unit="0"><Key frame="16" value="-6.00248" /><Key frame="24" value="-7.38425" /><Key frame="37" value="-7.38425" /></ActuatorCurve><ActuatorCurve name="value" actuator="KneePitch" mute="0" unit="0"><Key frame="11" value="3.72915" /><Key frame="16" value="3.12324" /><Key frame="24" value="-0.127664" /><Key frame="37" value="-0.779779" /></ActuatorCurve></ActuatorList></Timeline><Resource name="Standing" type="Lock" timeout="1" /><Resource name="All motors" type="Lock" timeout="1" /></Box><Box name="Stand Up" id="75" localization="8" tooltip="the robot tries to stand up from any position for a number of tries.&#x0A;&#x0A;Note: The number of tries can be set in parameters." x="1810" y="476"><bitmap>media/images/box/movement/stand.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="success" type="1" type_size="1" nature="1" inner="0" tooltip="Stimulated when the robot succeed in standing up." id="4" /><Output name="failure" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when the robot failed to stand up after n tries.&#x0A;&#x0A;Note: The number of tries can be set in parameters." id="5" /><Parameter name="Maximum of tries" inherits_from_parent="0" content_type="1" value="3" default_value="3" min="0" max="10" tooltip="The maximum number of fails of stand up before stimulating the failure output." id="6" /><Timeline enable="0"><BehaviorLayer name="StandUpBehavior"><BehaviorKeyframe name="DetectRobotPose" index="1"><Diagram><Box name="Goto Posture" id="2" localization="8" tooltip="The robot goes from its current postition to the asked posture." x="331" y="92"><bitmap>media/images/box/box-diagram.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        self.nTries = 0
+        self.postureProxy = ALProxy("ALRobotPosture")
+        pass
+
+    def onUnload(self):
+        self.postureProxy.stopMove()
+
+    def onInput_onStart(self):
+        if(self.nTries != self.getParameter("Maximum of tries")):
+            self.nTries = self.getParameter("Maximum of tries")
+            self.postureProxy.setMaxTryNumber(self.nTries)
+
+        result = self.postureProxy.goToPosture(self.getParameter("Name"), self.getParameter("Speed (%)")/100.)
+        if(result):
+            self.success()
+        else:
+            self.failure()
+        pass
+
+    def onInput_onStop(self):
+        self.onUnload() #~ it is recommanded to call onUnload of this box in a onStop method, as the code written in onUnload is used to stop the box as well
+        pass]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="success" type="1" type_size="1" nature="1" inner="0" tooltip="Stimulated if the posture has been reached." id="4" /><Output name="failure" type="1" type_size="1" nature="1" inner="0" tooltip="Stimulated if the posture could not be reached." id="5" /><Parameter name="Name" inherits_from_parent="0" content_type="3" value="Stand" default_value="Stand" custom_choice="1" tooltip="Name of the posture to go to." id="6"><Choice value="Crouch" /><Choice value="LyingBack" /><Choice value="LyingBelly" /><Choice value="Sit" /><Choice value="SitRelax" /><Choice value="StandInit" /><Choice value="Stand" /><Choice value="StandZero" /></Parameter><Parameter name="Speed (%)" inherits_from_parent="0" content_type="1" value="30" default_value="80" min="0" max="100" tooltip="Speed to go to the posture." id="7" /><Parameter name="Maximum of tries" inherits_from_parent="1" content_type="1" value="3" default_value="3" min="0" max="10" tooltip="The maximum number of fails of go to posture before stimulating the failure output." id="8" /><Resource name="All motors" type="Lock" timeout="0" /><Resource name="Stiffness" type="Lock" timeout="0" /></Box><Link inputowner="2" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="0" indexofinput="4" outputowner="2" indexofoutput="4" /><Link inputowner="0" indexofinput="5" outputowner="2" indexofoutput="5" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline><Resource name="All motors" type="Lock" timeout="0" /></Box><Box name="Wait" id="46" localization="8" tooltip="Wait a moment before sending a signal on the output. &#x0A;Can be stopped anytime. &#x0A;Stimulating the input again before output is activated restarts the waiting period.&#x0A;" x="784" y="47"><bitmap>media/images/box/wait.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        self.waiting = None
+
+    def onUnload(self):
+        self.cancelWaiting()
+
+    def triggerOutput(self):
+        self.timerOutput()
+
+    def cancelWaiting(self):
+        if self.waiting:
+            self.waiting.cancel()
+        self.waiting = None
+
+    def onInput_onStart(self):
+        self.cancelWaiting()
+        import qi
+        self.waiting = qi.async(self.triggerOutput, delay=int(self.getParameter("Timeout (s)") * 1000 * 1000))
+
+    def onInput_onStop(self):
+        if self.getParameter("Trigger timerOutput if cancelled") and self.waiting and self.waiting.isRunning():
+            self.timerOutput()
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Start the Wait box with the configured timeout value." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Stop the wait and stimulate the output." id="3" /><Output name="timerOutput" type="1" type_size="1" nature="1" inner="0" tooltip="Send a bang once time set in parameters is elapsed, or if the box is stopped and the appropriate parameter is set." id="4" /><Parameter name="Timeout (s)" inherits_from_parent="0" content_type="2" value="2" default_value="1" min="0" max="5000" tooltip="Duration the box waits before stimulating the output." id="5" /><Parameter name="Trigger timerOutput if cancelled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="If the box is currently waiting and cancelled, output will be stimulated." id="6" /></Box><Box name="Wait (1)" id="47" localization="8" tooltip="Wait a moment before sending a signal on the output. &#x0A;Can be stopped anytime. &#x0A;Stimulating the input again before output is activated restarts the waiting period.&#x0A;" x="780" y="201"><bitmap>media/images/box/wait.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        self.waiting = None
+
+    def onUnload(self):
+        self.cancelWaiting()
+
+    def triggerOutput(self):
+        self.timerOutput()
+
+    def cancelWaiting(self):
+        if self.waiting:
+            self.waiting.cancel()
+        self.waiting = None
+
+    def onInput_onStart(self):
+        self.cancelWaiting()
+        import qi
+        self.waiting = qi.async(self.triggerOutput, delay=int(self.getParameter("Timeout (s)") * 1000 * 1000))
+
+    def onInput_onStop(self):
+        if self.getParameter("Trigger timerOutput if cancelled") and self.waiting and self.waiting.isRunning():
+            self.timerOutput()
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Start the Wait box with the configured timeout value." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Stop the wait and stimulate the output." id="3" /><Output name="timerOutput" type="1" type_size="1" nature="1" inner="0" tooltip="Send a bang once time set in parameters is elapsed, or if the box is stopped and the appropriate parameter is set." id="4" /><Parameter name="Timeout (s)" inherits_from_parent="0" content_type="2" value="2" default_value="1" min="0" max="5000" tooltip="Duration the box waits before stimulating the output." id="5" /><Parameter name="Trigger timerOutput if cancelled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="If the box is currently waiting and cancelled, output will be stimulated." id="6" /></Box><Box name="Wait (2)" id="48" localization="8" tooltip="Wait a moment before sending a signal on the output. &#x0A;Can be stopped anytime. &#x0A;Stimulating the input again before output is activated restarts the waiting period.&#x0A;" x="791" y="347"><bitmap>media/images/box/wait.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        self.waiting = None
+
+    def onUnload(self):
+        self.cancelWaiting()
+
+    def triggerOutput(self):
+        self.timerOutput()
+
+    def cancelWaiting(self):
+        if self.waiting:
+            self.waiting.cancel()
+        self.waiting = None
+
+    def onInput_onStart(self):
+        self.cancelWaiting()
+        import qi
+        self.waiting = qi.async(self.triggerOutput, delay=int(self.getParameter("Timeout (s)") * 1000 * 1000))
+
+    def onInput_onStop(self):
+        if self.getParameter("Trigger timerOutput if cancelled") and self.waiting and self.waiting.isRunning():
+            self.timerOutput()
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Start the Wait box with the configured timeout value." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Stop the wait and stimulate the output." id="3" /><Output name="timerOutput" type="1" type_size="1" nature="1" inner="0" tooltip="Send a bang once time set in parameters is elapsed, or if the box is stopped and the appropriate parameter is set." id="4" /><Parameter name="Timeout (s)" inherits_from_parent="0" content_type="2" value="2" default_value="1" min="0" max="5000" tooltip="Duration the box waits before stimulating the output." id="5" /><Parameter name="Trigger timerOutput if cancelled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="If the box is currently waiting and cancelled, output will be stimulated." id="6" /></Box><Box name="Wait (3)" id="49" localization="8" tooltip="Wait a moment before sending a signal on the output. &#x0A;Can be stopped anytime. &#x0A;Stimulating the input again before output is activated restarts the waiting period.&#x0A;" x="804" y="478"><bitmap>media/images/box/wait.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        self.waiting = None
+
+    def onUnload(self):
+        self.cancelWaiting()
+
+    def triggerOutput(self):
+        self.timerOutput()
+
+    def cancelWaiting(self):
+        if self.waiting:
+            self.waiting.cancel()
+        self.waiting = None
+
+    def onInput_onStart(self):
+        self.cancelWaiting()
+        import qi
+        self.waiting = qi.async(self.triggerOutput, delay=int(self.getParameter("Timeout (s)") * 1000 * 1000))
+
+    def onInput_onStop(self):
+        if self.getParameter("Trigger timerOutput if cancelled") and self.waiting and self.waiting.isRunning():
+            self.timerOutput()
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Start the Wait box with the configured timeout value." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Stop the wait and stimulate the output." id="3" /><Output name="timerOutput" type="1" type_size="1" nature="1" inner="0" tooltip="Send a bang once time set in parameters is elapsed, or if the box is stopped and the appropriate parameter is set." id="4" /><Parameter name="Timeout (s)" inherits_from_parent="0" content_type="2" value="2" default_value="1" min="0" max="5000" tooltip="Duration the box waits before stimulating the output." id="5" /><Parameter name="Trigger timerOutput if cancelled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="If the box is currently waiting and cancelled, output will be stimulated." id="6" /></Box><Box name="Wait (4)" id="50" localization="8" tooltip="Wait a moment before sending a signal on the output. &#x0A;Can be stopped anytime. &#x0A;Stimulating the input again before output is activated restarts the waiting period.&#x0A;" x="798" y="602"><bitmap>media/images/box/wait.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        self.waiting = None
+
+    def onUnload(self):
+        self.cancelWaiting()
+
+    def triggerOutput(self):
+        self.timerOutput()
+
+    def cancelWaiting(self):
+        if self.waiting:
+            self.waiting.cancel()
+        self.waiting = None
+
+    def onInput_onStart(self):
+        self.cancelWaiting()
+        import qi
+        self.waiting = qi.async(self.triggerOutput, delay=int(self.getParameter("Timeout (s)") * 1000 * 1000))
+
+    def onInput_onStop(self):
+        if self.getParameter("Trigger timerOutput if cancelled") and self.waiting and self.waiting.isRunning():
+            self.timerOutput()
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Start the Wait box with the configured timeout value." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Stop the wait and stimulate the output." id="3" /><Output name="timerOutput" type="1" type_size="1" nature="1" inner="0" tooltip="Send a bang once time set in parameters is elapsed, or if the box is stopped and the appropriate parameter is set." id="4" /><Parameter name="Timeout (s)" inherits_from_parent="0" content_type="2" value="2" default_value="1" min="0" max="5000" tooltip="Duration the box waits before stimulating the output." id="5" /><Parameter name="Trigger timerOutput if cancelled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="If the box is currently waiting and cancelled, output will be stimulated." id="6" /></Box><Box name="Wait (5)" id="51" localization="8" tooltip="Wait a moment before sending a signal on the output. &#x0A;Can be stopped anytime. &#x0A;Stimulating the input again before output is activated restarts the waiting period.&#x0A;" x="794" y="723"><bitmap>media/images/box/wait.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        self.waiting = None
+
+    def onUnload(self):
+        self.cancelWaiting()
+
+    def triggerOutput(self):
+        self.timerOutput()
+
+    def cancelWaiting(self):
+        if self.waiting:
+            self.waiting.cancel()
+        self.waiting = None
+
+    def onInput_onStart(self):
+        self.cancelWaiting()
+        import qi
+        self.waiting = qi.async(self.triggerOutput, delay=int(self.getParameter("Timeout (s)") * 1000 * 1000))
+
+    def onInput_onStop(self):
+        if self.getParameter("Trigger timerOutput if cancelled") and self.waiting and self.waiting.isRunning():
+            self.timerOutput()
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Start the Wait box with the configured timeout value." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Stop the wait and stimulate the output." id="3" /><Output name="timerOutput" type="1" type_size="1" nature="1" inner="0" tooltip="Send a bang once time set in parameters is elapsed, or if the box is stopped and the appropriate parameter is set." id="4" /><Parameter name="Timeout (s)" inherits_from_parent="0" content_type="2" value="2" default_value="1" min="0" max="5000" tooltip="Duration the box waits before stimulating the output." id="5" /><Parameter name="Trigger timerOutput if cancelled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="If the box is currently waiting and cancelled, output will be stimulated." id="6" /></Box><Box name="Wait (6)" id="52" localization="8" tooltip="Wait a moment before sending a signal on the output. &#x0A;Can be stopped anytime. &#x0A;Stimulating the input again before output is activated restarts the waiting period.&#x0A;" x="798" y="835"><bitmap>media/images/box/wait.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        self.waiting = None
+
+    def onUnload(self):
+        self.cancelWaiting()
+
+    def triggerOutput(self):
+        self.timerOutput()
+
+    def cancelWaiting(self):
+        if self.waiting:
+            self.waiting.cancel()
+        self.waiting = None
+
+    def onInput_onStart(self):
+        self.cancelWaiting()
+        import qi
+        self.waiting = qi.async(self.triggerOutput, delay=int(self.getParameter("Timeout (s)") * 1000 * 1000))
+
+    def onInput_onStop(self):
+        if self.getParameter("Trigger timerOutput if cancelled") and self.waiting and self.waiting.isRunning():
+            self.timerOutput()
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Start the Wait box with the configured timeout value." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Stop the wait and stimulate the output." id="3" /><Output name="timerOutput" type="1" type_size="1" nature="1" inner="0" tooltip="Send a bang once time set in parameters is elapsed, or if the box is stopped and the appropriate parameter is set." id="4" /><Parameter name="Timeout (s)" inherits_from_parent="0" content_type="2" value="2" default_value="1" min="0" max="5000" tooltip="Duration the box waits before stimulating the output." id="5" /><Parameter name="Trigger timerOutput if cancelled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="If the box is currently waiting and cancelled, output will be stimulated." id="6" /></Box><Box name="Wait (7)" id="53" localization="8" tooltip="Wait a moment before sending a signal on the output. &#x0A;Can be stopped anytime. &#x0A;Stimulating the input again before output is activated restarts the waiting period.&#x0A;" x="811" y="969"><bitmap>media/images/box/wait.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        self.waiting = None
+
+    def onUnload(self):
+        self.cancelWaiting()
+
+    def triggerOutput(self):
+        self.timerOutput()
+
+    def cancelWaiting(self):
+        if self.waiting:
+            self.waiting.cancel()
+        self.waiting = None
+
+    def onInput_onStart(self):
+        self.cancelWaiting()
+        import qi
+        self.waiting = qi.async(self.triggerOutput, delay=int(self.getParameter("Timeout (s)") * 1000 * 1000))
+
+    def onInput_onStop(self):
+        if self.getParameter("Trigger timerOutput if cancelled") and self.waiting and self.waiting.isRunning():
+            self.timerOutput()
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Start the Wait box with the configured timeout value." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Stop the wait and stimulate the output." id="3" /><Output name="timerOutput" type="1" type_size="1" nature="1" inner="0" tooltip="Send a bang once time set in parameters is elapsed, or if the box is stopped and the appropriate parameter is set." id="4" /><Parameter name="Timeout (s)" inherits_from_parent="0" content_type="2" value="2" default_value="1" min="0" max="5000" tooltip="Duration the box waits before stimulating the output." id="5" /><Parameter name="Trigger timerOutput if cancelled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="If the box is currently waiting and cancelled, output will be stimulated." id="6" /></Box><Box name="Wait (8)" id="54" localization="8" tooltip="Wait a moment before sending a signal on the output. &#x0A;Can be stopped anytime. &#x0A;Stimulating the input again before output is activated restarts the waiting period.&#x0A;" x="814" y="1100"><bitmap>media/images/box/wait.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        self.waiting = None
+
+    def onUnload(self):
+        self.cancelWaiting()
+
+    def triggerOutput(self):
+        self.timerOutput()
+
+    def cancelWaiting(self):
+        if self.waiting:
+            self.waiting.cancel()
+        self.waiting = None
+
+    def onInput_onStart(self):
+        self.cancelWaiting()
+        import qi
+        self.waiting = qi.async(self.triggerOutput, delay=int(self.getParameter("Timeout (s)") * 1000 * 1000))
+
+    def onInput_onStop(self):
+        if self.getParameter("Trigger timerOutput if cancelled") and self.waiting and self.waiting.isRunning():
+            self.timerOutput()
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Start the Wait box with the configured timeout value." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Stop the wait and stimulate the output." id="3" /><Output name="timerOutput" type="1" type_size="1" nature="1" inner="0" tooltip="Send a bang once time set in parameters is elapsed, or if the box is stopped and the appropriate parameter is set." id="4" /><Parameter name="Timeout (s)" inherits_from_parent="0" content_type="2" value="2" default_value="1" min="0" max="5000" tooltip="Duration the box waits before stimulating the output." id="5" /><Parameter name="Trigger timerOutput if cancelled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="If the box is currently waiting and cancelled, output will be stimulated." id="6" /></Box><Box name="Wait (9)" id="55" localization="8" tooltip="Wait a moment before sending a signal on the output. &#x0A;Can be stopped anytime. &#x0A;Stimulating the input again before output is activated restarts the waiting period.&#x0A;" x="814" y="1237"><bitmap>media/images/box/wait.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        self.waiting = None
+
+    def onUnload(self):
+        self.cancelWaiting()
+
+    def triggerOutput(self):
+        self.timerOutput()
+
+    def cancelWaiting(self):
+        if self.waiting:
+            self.waiting.cancel()
+        self.waiting = None
+
+    def onInput_onStart(self):
+        self.cancelWaiting()
+        import qi
+        self.waiting = qi.async(self.triggerOutput, delay=int(self.getParameter("Timeout (s)") * 1000 * 1000))
+
+    def onInput_onStop(self):
+        if self.getParameter("Trigger timerOutput if cancelled") and self.waiting and self.waiting.isRunning():
+            self.timerOutput()
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Start the Wait box with the configured timeout value." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Stop the wait and stimulate the output." id="3" /><Output name="timerOutput" type="1" type_size="1" nature="1" inner="0" tooltip="Send a bang once time set in parameters is elapsed, or if the box is stopped and the appropriate parameter is set." id="4" /><Parameter name="Timeout (s)" inherits_from_parent="0" content_type="2" value="2" default_value="1" min="0" max="5000" tooltip="Duration the box waits before stimulating the output." id="5" /><Parameter name="Trigger timerOutput if cancelled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="If the box is currently waiting and cancelled, output will be stimulated." id="6" /></Box><Link inputowner="22" indexofinput="2" outputowner="21" indexofoutput="3" /><Link inputowner="21" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="1" indexofinput="2" outputowner="22" indexofoutput="3" /><Link inputowner="2" indexofinput="2" outputowner="22" indexofoutput="4" /><Link inputowner="3" indexofinput="2" outputowner="22" indexofoutput="5" /><Link inputowner="4" indexofinput="2" outputowner="22" indexofoutput="6" /><Link inputowner="5" indexofinput="2" outputowner="22" indexofoutput="7" /><Link inputowner="6" indexofinput="2" outputowner="22" indexofoutput="8" /><Link inputowner="7" indexofinput="2" outputowner="22" indexofoutput="9" /><Link inputowner="8" indexofinput="2" outputowner="22" indexofoutput="10" /><Link inputowner="9" indexofinput="2" outputowner="22" indexofoutput="11" /><Link inputowner="10" indexofinput="2" outputowner="22" indexofoutput="12" /><Link inputowner="25" indexofinput="2" outputowner="24" indexofoutput="3" /><Link inputowner="26" indexofinput="2" outputowner="25" indexofoutput="3" /><Link inputowner="27" indexofinput="2" outputowner="25" indexofoutput="4" /><Link inputowner="28" indexofinput="2" outputowner="25" indexofoutput="5" /><Link inputowner="29" indexofinput="2" outputowner="25" indexofoutput="6" /><Link inputowner="23" indexofinput="2" outputowner="1" indexofoutput="3" /><Link inputowner="30" indexofinput="2" outputowner="2" indexofoutput="3" /><Link inputowner="31" indexofinput="2" outputowner="3" indexofoutput="3" /><Link inputowner="32" indexofinput="2" outputowner="4" indexofoutput="3" /><Link inputowner="33" indexofinput="2" outputowner="5" indexofoutput="3" /><Link inputowner="34" indexofinput="2" outputowner="6" indexofoutput="3" /><Link inputowner="35" indexofinput="2" outputowner="7" indexofoutput="3" /><Link inputowner="36" indexofinput="2" outputowner="8" indexofoutput="3" /><Link inputowner="37" indexofinput="2" outputowner="9" indexofoutput="3" /><Link inputowner="38" indexofinput="2" outputowner="10" indexofoutput="3" /><Link inputowner="24" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="39" indexofinput="2" outputowner="11" indexofoutput="3" /><Link inputowner="39" indexofinput="2" outputowner="12" indexofoutput="3" /><Link inputowner="39" indexofinput="2" outputowner="13" indexofoutput="3" /><Link inputowner="39" indexofinput="2" outputowner="14" indexofoutput="3" /><Link inputowner="39" indexofinput="2" outputowner="15" indexofoutput="3" /><Link inputowner="39" indexofinput="2" outputowner="16" indexofoutput="3" /><Link inputowner="39" indexofinput="2" outputowner="17" indexofoutput="3" /><Link inputowner="39" indexofinput="2" outputowner="18" indexofoutput="3" /><Link inputowner="39" indexofinput="2" outputowner="19" indexofoutput="3" /><Link inputowner="39" indexofinput="2" outputowner="20" indexofoutput="3" /><Link inputowner="41" indexofinput="2" outputowner="40" indexofoutput="3" /><Link inputowner="40" indexofinput="2" outputowner="39" indexofoutput="4" /><Link inputowner="42" indexofinput="2" outputowner="41" indexofoutput="3" /><Link inputowner="43" indexofinput="2" outputowner="41" indexofoutput="4" /><Link inputowner="44" indexofinput="2" outputowner="41" indexofoutput="5" /><Link inputowner="45" indexofinput="2" outputowner="41" indexofoutput="6" /><Link inputowner="75" indexofinput="2" outputowner="42" indexofoutput="4" /><Link inputowner="75" indexofinput="2" outputowner="43" indexofoutput="4" /><Link inputowner="75" indexofinput="2" outputowner="44" indexofoutput="4" /><Link inputowner="75" indexofinput="2" outputowner="45" indexofoutput="4" /><Link inputowner="0" indexofinput="4" outputowner="75" indexofoutput="4" /><Link inputowner="46" indexofinput="2" outputowner="23" indexofoutput="4" /><Link inputowner="11" indexofinput="2" outputowner="46" indexofoutput="4" /><Link inputowner="47" indexofinput="2" outputowner="30" indexofoutput="4" /><Link inputowner="12" indexofinput="2" outputowner="47" indexofoutput="4" /><Link inputowner="48" indexofinput="2" outputowner="31" indexofoutput="4" /><Link inputowner="13" indexofinput="2" outputowner="48" indexofoutput="4" /><Link inputowner="49" indexofinput="2" outputowner="32" indexofoutput="4" /><Link inputowner="14" indexofinput="2" outputowner="49" indexofoutput="4" /><Link inputowner="50" indexofinput="2" outputowner="33" indexofoutput="4" /><Link inputowner="15" indexofinput="2" outputowner="50" indexofoutput="4" /><Link inputowner="51" indexofinput="2" outputowner="34" indexofoutput="4" /><Link inputowner="16" indexofinput="2" outputowner="51" indexofoutput="4" /><Link inputowner="52" indexofinput="2" outputowner="35" indexofoutput="4" /><Link inputowner="17" indexofinput="2" outputowner="52" indexofoutput="4" /><Link inputowner="53" indexofinput="2" outputowner="36" indexofoutput="4" /><Link inputowner="18" indexofinput="2" outputowner="53" indexofoutput="4" /><Link inputowner="54" indexofinput="2" outputowner="37" indexofoutput="4" /><Link inputowner="19" indexofinput="2" outputowner="54" indexofoutput="4" /><Link inputowner="55" indexofinput="2" outputowner="38" indexofoutput="4" /><Link inputowner="20" indexofinput="2" outputowner="55" indexofoutput="4" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box></ChoregrapheProject>

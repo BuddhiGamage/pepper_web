@@ -13,12 +13,22 @@
         <BehaviorDescription name="behavior" src="cheeky" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="listening" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="dance" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="animal" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="play_game" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="selfie" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="tell_joke" xar="behavior.xar" />
     </BehaviorDescriptions>
     <Dialogs />
     <Resources>
         <File name="swiftswords_ext" src="dance/swiftswords_ext.mp3" />
         <File name="taichimove" src="dance/taichimove.pmt" />
+        <File name="elephant" src="animal/elephant.ogg" />
+        <File name="golf" src="play_game/golf.ogg" />
+        <File name="move" src="play_game/move.pmt" />
     </Resources>
     <Topics />
     <IgnoredPaths />
+    <Translations auto-fill="en_US">
+        <Translation name="translation_en_US" src="translations/translation_en_US.ts" language="en_US" />
+    </Translations>
 </Package>
