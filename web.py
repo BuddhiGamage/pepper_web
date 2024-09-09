@@ -115,13 +115,14 @@ with col2:
         # Perform actions
         animation()
         txt = record_audio()
-        emotion, text = pepper_say(txt)
-        placeholder.write("Pepper Speaking...")
-        emo1 = emotion[0][0].lower()
-        emo2 = emotion[1][0].lower()
-        animation(emo1, text)
-        time.sleep(1.5)
-        animation(emo2)
+        if not txt=='':
+            emotion, text = pepper_say(txt)
+            placeholder.write("Pepper Speaking...")
+            emo1 = emotion[0][0].lower()
+            emo2 = emotion[1][0].lower()
+            animation(emo1, text)
+            time.sleep(1.5)
+            animation(emo2)
 
         # Clear the placeholder (removes the text after the actions are done)
         placeholder.empty()

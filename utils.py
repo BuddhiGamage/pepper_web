@@ -24,14 +24,20 @@ def record_audio():
         # Create a placeholder for temporary text
         placeholder = st.empty()
         placeholder.write("Pepper is Listening...")
-        audio_data = recognizer.listen(source)
-        try:            
+        try: 
+            audio_data = recognizer.listen(source, timeout=10)
+
             # text_result=recognizer.recognize_google(audio_data)
             text_result=recognizer.recognize_whisper_api(audio_data, api_key=OPENAI_API_KEY)
         except sr.UnknownValueError:
-            text_result="Google Speech Recognition could not understand audio"
+            placeholder.write("Google Speech Recognition could not understand audio")
+            return ''
         except sr.RequestError as e:
-            text_result=f"Could not request results; {e}"
+            placeholder.write("Could not request results; {e}")
+            return ''
+        except sr.WaitTimeoutError:
+            placeholder.write("Time out. Please ask the question again.")
+            return ''
 
         # st.write("Finished listening.")
         placeholder.empty()
