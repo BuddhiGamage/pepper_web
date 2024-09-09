@@ -3,3 +3,4 @@ speechrecognition
 openai
 pyaudio
 python-dotenv
+qi

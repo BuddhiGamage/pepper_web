@@ -1,5 +1,30 @@
 import streamlit as st
 from utils import record_audio, pepper_say
+from connection import Connection
+import time
+
+
+#creating the connection
+st.session_state.pepper = Connection()
+ip='127.0.0.1'
+port=44029
+
+# ip='10.0.0.244'
+# port=9559
+st.session_state.session = st.session_state.pepper.connect(ip, port)
+
+# Create a proxy to the AL services
+st.session_state.behavior_mng_service = st.session_state.session.service("ALBehaviorManager")
+st.session_state.tts_service = st.session_state.session.service("ALTextToSpeech")
+# setting parameters
+st.session_state.tts_service.setParameter("speed", 85)
+
+# Play an animation
+def animation(button_name='listening',text=''):
+    st.session_state.behavior_mng_service .stopAllBehaviors()
+    st.session_state.behavior_mng_service .startBehavior("pepper_web/"+button_name)
+    if not text=='':
+        st.session_state.tts_service.say(text)
 
 # Function to simulate Pepper's actions
 def perform_pepper_action(action):
@@ -78,10 +103,25 @@ col1, col2, col3 = st.columns([1,3,1])
 with col2:
     # Button for direct voice interaction with Pepper
     if st.button("Talk to Pepper"):
-        st.write("Wait for pepper")
-        txt=record_audio()
-        res=pepper_say(txt)
-        st.success(txt+' pepper told '+res)
+        # Create a placeholder for temporary text
+        placeholder = st.empty()
+
+        # Display the text "Wait for pepper"
+        placeholder.write("Wait for pepper.")
+
+        # Perform actions
+        animation()
+        txt = record_audio()
+        emotion, text = pepper_say(txt)
+        placeholder.write("Pepper Speaking...")
+        emo1 = emotion[0][0].lower()
+        emo2 = emotion[1][0].lower()
+        animation(emo1, text)
+        time.sleep(1.5)
+        animation(emo2)
+
+        # Clear the placeholder (removes the text after the actions are done)
+        placeholder.empty()
 
 # Add any additional layout or interactive elements if needed
 st.text("Interact with Pepper using buttons, or ask it questions using the text input above!")

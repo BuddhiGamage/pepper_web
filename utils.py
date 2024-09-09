@@ -21,7 +21,9 @@ recognizer.pause_threshold = 0.8
 def record_audio():
     with sr.Microphone() as source:
         recognizer.adjust_for_ambient_noise(source)  # Adjust for ambient noise
-        st.write("Pepper is Listening...")
+        # Create a placeholder for temporary text
+        placeholder = st.empty()
+        placeholder.write("Pepper is Listening...")
         audio_data = recognizer.listen(source)
         try:            
             # text_result=recognizer.recognize_google(audio_data)
@@ -32,6 +34,7 @@ def record_audio():
             text_result=f"Could not request results; {e}"
 
         # st.write("Finished listening.")
+        placeholder.empty()
         return text_result
     
 def extract_data(s):
@@ -71,7 +74,7 @@ def pepper_say(question):
 
     data, cleaned = extract_data(saywhut)
     print (cleaned)
-    return cleaned
+    return data,cleaned
 
 def main():
     st.title("Speech Recognition Web App")
