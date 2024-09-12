@@ -17,6 +17,8 @@
         <BehaviorDescription name="behavior" src="play_game" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="selfie" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="tell_joke" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="music" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="friendly" xar="behavior.xar" />
     </BehaviorDescriptions>
     <Dialogs />
     <Resources>
@@ -25,6 +27,8 @@
         <File name="elephant" src="animal/elephant.ogg" />
         <File name="golf" src="play_game/golf.ogg" />
         <File name="move" src="play_game/move.pmt" />
+        <File name="epicsax" src="music/epicsax.ogg" />
+        <File name="seedevi2" src="seedevi2.wav" />
     </Resources>
     <Topics />
     <IgnoredPaths />

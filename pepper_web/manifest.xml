@@ -67,12 +67,17 @@
   </behaviorContent>
   <behaviorContent path="selfie">
    <nature>interactive</nature>
-   <triggerSentences/>
-   <loadingResponses/>
-   <autonomous/>
    <permissions/>
   </behaviorContent>
   <behaviorContent path="tell_joke">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="music">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="friendly">
    <nature>interactive</nature>
    <permissions/>
   </behaviorContent>

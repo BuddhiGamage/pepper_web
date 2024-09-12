@@ -20,12 +20,12 @@ recognizer.pause_threshold = 0.8
 
 def record_audio():
     with sr.Microphone() as source:
-        recognizer.adjust_for_ambient_noise(source)  # Adjust for ambient noise
+        # recognizer.adjust_for_ambient_noise(source)  # Adjust for ambient noise
         # Create a placeholder for temporary text
         placeholder = st.empty()
         placeholder.write("Pepper is Listening...")
         try: 
-            audio_data = recognizer.listen(source, timeout=10)
+            audio_data = recognizer.listen(source, phrase_time_limit=4,timeout=10)
 
             # text_result=recognizer.recognize_google(audio_data)
             text_result=recognizer.recognize_whisper_api(audio_data, api_key=OPENAI_API_KEY)
@@ -61,12 +61,7 @@ def extract_data(s):
 
     return result, cleaned_string
 
-def pepper_say(question):
-    messages=[{"role": "system", "content": 'You are a robot named Pepper in an improv comedy show about AI.' \
-                'You are sarcastic funny and self deprecating with dark humour. You always limit your response to 3 to 5 sentences' \
-                'You output one of the following EMOTIONS = HAPPY, SAD, ANGRY, NEUTRAL, SURPRISED, DISGUSTED, FEARFUL, SARCASTIC, CHEEKY attached with the sentiment of each sentence' \
-                'An emotion should be output in the format [EMOTION]. Each and every sentence you output should should have an emotion attached to it' \
-                'You do not ever say the words "but hey"'}]
+def pepper_say(question,messages):
 
     print("Prompting ...")
 
@@ -79,6 +74,7 @@ def pepper_say(question):
     saywhut=response.choices[0].message.content
 
     data, cleaned = extract_data(saywhut)
+    print(data)
     print (cleaned)
     return data,cleaned
 
