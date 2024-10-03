@@ -2,6 +2,7 @@ import streamlit as st
 from utils import record_audio, pepper_say
 from connection import Connection
 import time
+import threading
 
 
 #creating the connection
@@ -9,7 +10,8 @@ if 'pepper' not in st.session_state:
     st.session_state.pepper = Connection()
     # ip='127.0.0.1'
     # port=38215
-    ip='10.0.0.244'
+    # ip='10.0.0.244'
+    ip='192.168.1.53'
     port=9559
     st.session_state.session = st.session_state.pepper.connect(ip, port)
     # Create a proxy to the AL services
@@ -17,20 +19,27 @@ if 'pepper' not in st.session_state:
     st.session_state.tts_service = st.session_state.session.service("ALTextToSpeech")
     # setting parameters
     st.session_state.tts_service.setParameter("speed", 85)
+    # Get the ALTabletService
+#     st.session_state.tablet_service = st.session_state.session.service("ALTabletService")
+
+# # Ensure the tablet is in the correct state
+# st.session_state.tablet_service.showWebview("http://192.168.1.42:8501")  # URL you want to open
 
 if 'messages' not in st.session_state:
-    st.session_state.messages=[{"role": "system", "content": 'You are a robot named Pepper who acts as an assistance and resource person at the Collaborative Research Lab University of Canberra.' \
-                    'You are funny, Friendly and approachable. You always limit your response to 3 to 5 sentences' \
+    st.session_state.messages=[{"role": "system", "content": 'You are a robot named Pepper who acts as an assistance and resource person at the Collaborative Robotics Lab University of Canberra.' \
+                                'Today you are helping at the University of Canberra Open day-'
+                    'You are funny, Friendly and approachable. You always limit your response to 2 to 3 sentences' \
                     'You output only one of the following EMOTIONS = HAPPY, SAD, ANGRY, NEUTRAL, SURPRISED, DISGUSTED, FEARFUL, FRIENDLY, CHEEKY attached with the sentiment of each sentence' \
                     'An emotion should be output in the format [EMOTION]. Each and every sentence you output should should have an emotion attached to it' \
                     'You do not ever say the words "but hey"'}]
 
 # Play an animation
-def animation(button_name='listening',text=''):
-    st.session_state.behavior_mng_service .stopAllBehaviors()
-    st.session_state.behavior_mng_service .startBehavior("pepper_web/"+button_name)
+def animation(button_name='listening',text='', behavior_mng_service=None,tts_service=None):
+    if not button_name=='listening':
+        behavior_mng_service.stopAllBehaviors()
+    behavior_mng_service.startBehavior("pepper_web/"+button_name)
     if not text=='':
-        st.session_state.tts_service.say(text)
+       tts_service.say(text)
 
 # Function to simulate Pepper's actions
 def perform_pepper_action(action):
@@ -52,7 +61,7 @@ def perform_pepper_action(action):
     # #     st.success("Pepper says: 'Hello there! It’s great to see you! How can I make your day more fun?'")
     # elif action == "tell_story":
     #     st.success("Pepper says: 'Gather around! I’ve got a fun story to tell. Are you ready for an adventure?'")
-    animation(action)
+    animation(action,behavior_mng_service=st.session_state.behavior_mng_service,tts_service=st.session_state.tts_service)
 
 
 # UI layout
@@ -121,18 +130,46 @@ with col2:
         placeholder.write("Wait for pepper.")
 
         # Perform actions
-        animation()
+        # animation()
+
+        # Start animation in a separate thread
+        animation_thread = threading.Thread(
+            target=animation, 
+            args=('listening', '', st.session_state.behavior_mng_service, st.session_state.tts_service)
+        )
+        animation_thread.start()
+
         txt = record_audio()
+
+        # Replace "Peppa" with "Pepper" if it appears
+        if "Peppa" in txt:
+            txt = txt.replace("Peppa", "Pepper")
+
         if not txt=='':
             emotion, text = pepper_say(txt,st.session_state.messages)
             placeholder.write("Pepper Speaking...")
             emo1 = emotion[0][0].lower()
-            animation(emo1, text)
+            # animation(emo1, text)
+
+            # Start a second animation with parameters in a separate thread
+            animation_thread_emo1 = threading.Thread(
+                target=animation, 
+                args=(emo1, text, st.session_state.behavior_mng_service, st.session_state.tts_service)
+            )
+            animation_thread_emo1.start()
+
             try:
                 emo2 = emotion[1][0].lower()                
                 time.sleep(1.5)
-                animation(emo2)
-            except:
+                # animation(emo2)
+
+                # Start the second animation for emo2 in a separate thread
+                animation_thread_emo2 = threading.Thread(
+                    target=animation, 
+                    args=(emo2, '', st.session_state.behavior_mng_service, st.session_state.tts_service)
+                )
+                animation_thread_emo2.start()
+            except IndexError:
                 pass
 
         # Clear the placeholder (removes the text after the actions are done)

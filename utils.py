@@ -16,19 +16,34 @@ OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 
 # Initialize the recognizer
 recognizer = sr.Recognizer()
-recognizer.pause_threshold = 0.8
+recognizer.pause_threshold = 0.5
 
 def record_audio():
     with sr.Microphone() as source:
-        # recognizer.adjust_for_ambient_noise(source)  # Adjust for ambient noise
+        recognizer.adjust_for_ambient_noise(source)  # Adjust for ambient noise
         # Create a placeholder for temporary text
         placeholder = st.empty()
         placeholder.write("Pepper is Listening...")
         try: 
-            audio_data = recognizer.listen(source, phrase_time_limit=4,timeout=10)
+            audio_data = recognizer.listen(source, phrase_time_limit=5,timeout=10)
 
-            # text_result=recognizer.recognize_google(audio_data)
-            text_result=recognizer.recognize_whisper_api(audio_data, api_key=OPENAI_API_KEY)
+            # Save the audio data to a temporary WAV file
+            with open("temp_audio.wav", "wb") as f:
+                f.write(audio_data.get_wav_data())
+
+            # Use OpenAI client to call Whisper API for transcription
+            audio_file = open("temp_audio.wav", "rb")
+            response = client.audio.transcriptions.create(
+                model="whisper-1",      # Whisper model version
+                file=audio_file,        # The audio file to transcribe
+                language='en'           # Set the language to English
+            )
+
+            # Extract the transcription result from the response
+            text_result = response.text
+
+            # text_result=recognizer.recognize_google(audio_data, language='en')
+            # text_result=recognizer.recognize_whisper_api(audio_data, api_key=OPENAI_API_KEY)
         except sr.UnknownValueError:
             placeholder.write("Google Speech Recognition could not understand audio")
             return ''
@@ -62,14 +77,19 @@ def extract_data(s):
     return result, cleaned_string
 
 def pepper_say(question,messages):
+    print(question)
 
     print("Prompting ...")
 
     messages.append({ "role": "user", "content": question})
 
-    response = client.chat.completions.create(model="gpt-4-1106-preview",
-    messages=messages,
-    temperature=0.5)
+    print(messages)
+
+    response = client.chat.completions.create(
+        # model="gpt-4-1106-preview",
+        model="gpt-4o-mini",
+        messages=messages,
+        temperature=0.5)
 
     saywhut=response.choices[0].message.content
 
