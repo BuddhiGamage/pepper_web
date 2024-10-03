@@ -19,11 +19,6 @@ if 'pepper' not in st.session_state:
     st.session_state.tts_service = st.session_state.session.service("ALTextToSpeech")
     # setting parameters
     st.session_state.tts_service.setParameter("speed", 85)
-    # Get the ALTabletService
-#     st.session_state.tablet_service = st.session_state.session.service("ALTabletService")
-
-# # Ensure the tablet is in the correct state
-# st.session_state.tablet_service.showWebview("http://192.168.1.42:8501")  # URL you want to open
 
 if 'messages' not in st.session_state:
     st.session_state.messages=[{"role": "system", "content": 'You are a robot named Pepper who acts as an assistance and resource person at the Collaborative Robotics Lab University of Canberra.' \
@@ -57,10 +52,7 @@ def perform_pepper_action(action):
         st.success("Smile!!!")
     elif action == "play_game":
         st.success("Pepper is playing")
-    # # elif action == "greet":
-    # #     st.success("Pepper says: 'Hello there! It’s great to see you! How can I make your day more fun?'")
-    # elif action == "tell_story":
-    #     st.success("Pepper says: 'Gather around! I’ve got a fun story to tell. Are you ready for an adventure?'")
+    
     animation(action,behavior_mng_service=st.session_state.behavior_mng_service,tts_service=st.session_state.tts_service)
 
 
@@ -91,8 +83,6 @@ with col1:
         perform_pepper_action("animal")
     if st.button("Selfie Pose"):
         perform_pepper_action("selfie")
-    # if st.button("Greetings"):
-    #     perform_pepper_action("greet")
 
 with col2:
     if st.button("Tell a Joke"):
@@ -101,21 +91,12 @@ with col2:
         perform_pepper_action("music")
     if st.button("Play a Game"):
         perform_pepper_action("play_game")
-    # if st.button("Tell a Story"):
-    #     perform_pepper_action("tell_story")
 
 # User text box to ask Pepper questions, with Ask button in the same row
 st.header("Ask Pepper a Question")
 col_text, col_button = st.columns([3, 1])
 
-# with col_text:
-#     user_input = st.text_input("Type your question here:")
 
-# with col_button:
-#     st.write("")
-#     st.write("")
-#     if st.button("Ask"):
-#         st.success(f"Pepper says: 'You asked: {user_input}. I will answer shortly!'")
 
 
 col1, col2, col3 = st.columns([1,3,1])
@@ -128,9 +109,6 @@ with col2:
 
         # Display the text "Wait for pepper"
         placeholder.write("Wait for pepper.")
-
-        # Perform actions
-        # animation()
 
         # Start animation in a separate thread
         animation_thread = threading.Thread(
